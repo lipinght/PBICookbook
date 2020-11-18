@@ -36,7 +36,7 @@ This scenario applies to situations where users are working within a small group
 *	Users use Power BI Desktop to author queries, datasets and reports 
 *	The .pbix file is recommended to be sored in a common location such as OneDrive
 *	All content creators and consumers require a Pro license unless the workspace has Premium capacity (in which case users with a Power BI Free license may view content which resides in Premium)
-*	For a small team collaboration, team can use the workspace fro both authoring and collaboration as well as distribution and delivery of content
+*	For a small team collaboration, team can use the workspace for both authoring and collaboration as well as distribution and delivery of content
 *	Apps can be optionally used to deliver read-only content to users, unless small teams do not desire the additional management overhead for apps
 *	Users can use features such as reschedule data refresh, use email subscriptions, dashboards and data alerts and are recommended to use features such as live connections and analyse in Excel
 *	On-Premises Data Gateway in Standard Mode supports data refresh, live connection or direct query
@@ -49,7 +49,7 @@ For Details of this usage scenario, please see Page 18 of the [Power BI deployme
  
 # Large Team Collaboration and Distribution
  ## Where does this pattern apply?
--This scenario applies to situations where users are working within a small group, collaboration and distribution could be handled within a workspace.
+This scenario applies to situations where users are working with a large team, where the complexity for collaboration and distribution needs grows beyond using just a workspace. In this scenario, the recommendation is to use a workspace for collaboration and a app for distribution.
 
 ## Type of Questions this Session will Address
 *	What does a large Team Collaboration scenario look like?
@@ -59,12 +59,12 @@ For Details of this usage scenario, please see Page 18 of the [Power BI deployme
 
 
 ## Overview
--
 *	Users use Power BI Desktop to author queries, datasets and reports 
 *	The .pbix file is recommended to be sored in a common location such as OneDrive
-*	All content creators and consumers require a Pro license unless the workspace has Premium capacity (in which case users with a Power BI Free license may view content which resides in Premium)
-*	For a small team collaboration, team can use the workspace fro both authoring and collaboration as well as distribution and delivery of content
-*	Apps can be optionally used to deliver read-only content to users, unless small teams do not desire the additional management overhead for apps
+*	All content creators and consumers require a Pro license unless the workspace has been assigned to Premium capacity, in which case Power BI Free users may view content from the app (or the workspace if permissions allow).
+*	For a large team collaboration, team can use the workspace for authoring and collaboration and the app distribution and delivery of content
+*	Best practice is to limit access to the workspace to only the small amount of users who are handling authoring, development, and quality assurance activities
+* Most users who will have read-only access to the content via app and not workspace
 *	Users can use features such as reschedule data refresh, use email subscriptions, dashboards and data alerts and are recommended to use features such as live connections and analyse in Excel
 *	On-Premises Data Gateway in Standard Mode supports data refresh, live connection or direct query
 *	Users can use Power BI mobile app
@@ -76,8 +76,7 @@ For Details of this usage scenario, please see Page 21 of the [Power BI deployme
 
 # Enterprise Content Distribution
 ## Where does this pattern apply?
--
-This scenario applies to situations where users are working within a small group, collaboration and distribution could be handled within a workspace.
+This scenario applies to situations where Power BI contents are created largely by central teams and there are significantly large amount of content consumers vs content creators. Power BI premium becomes a cost-effective way to manage organizational level reporting.
 
 ## Type of Questions this Session will Address
 *	What does enterprise content distribution scenario look like?
@@ -86,12 +85,11 @@ This scenario applies to situations where users are working within a small group
 
 
 ## Overview
--
 *	Users use Power BI Desktop to author queries, datasets and reports 
 *	The .pbix file is recommended to be sored in a common location such as OneDrive
-*	All content creators and consumers require a Pro license unless the workspace has Premium capacity (in which case users with a Power BI Free license may view content which resides in Premium)
-*	For a small team collaboration, team can use the workspace fro both authoring and collaboration as well as distribution and delivery of content
-*	Apps can be optionally used to deliver read-only content to users, unless small teams do not desire the additional management overhead for apps
+* Organization/entperprise level implementation can take advantage of the cost-effectiveness Power BI Premium by having large amount of content consumers on free licenses
+* Premium gives organizational level implementation dedicated compute capacity as opposed to the shared capacity that pro license gives.
+* Larger implementations may also find advantages from the larger storage limits, larger dataset sizes, higher refresh rates, and other Premium features.
 *	Users can use features such as reschedule data refresh, use email subscriptions, dashboards and data alerts and are recommended to use features such as live connections and analyse in Excel
 *	On-Premises Data Gateway in Standard Mode supports data refresh, live connection or direct query
 *	Users can use Power BI mobile app
