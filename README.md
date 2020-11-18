@@ -6,6 +6,7 @@ This is a repo that summarize main concepts and consolidates useful resources wh
 *	Architectural Choices, decision tree 
 *	Tenant Management, Marius
 *	Deployment Pipeline, Liping
+*  Data Flows
 *	Best Practice
     *	Modelling, Marius
     *	Governance, Together
