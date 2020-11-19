@@ -5,11 +5,11 @@ This is a repo that summarize main concepts and consolidates useful resources wh
 *	[Deployment Pattern](https://github.com/lipinght/pbideployment/blob/main/DeploymentPatterns/DeploymentPatterns.md), Liping
 *	Architectural Choices, decision tree 
 *	Tenant Management, Marius
-*	Deployment Pipeline, Liping
+*	[Deployment Pipeline](https://github.com/lipinght/pbideployment/blob/main/DeploymentPipeline/DeploymentPipeline.md), Liping
 *  Data Flows
 *	Best Practice
-    *	Modelling, Marius
-    *	Governance, Together
+    * Modelling, Marius
+    * Governance, Together
     * Visual, Liping
     * More
 *	Security
