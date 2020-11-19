@@ -2,4 +2,4 @@
 
 | Documentation | Description | 
 |:------:|:-----:|
-| tutorial | How to get started with pipeline |
+| Tutorial | This is to get started with pipeline |
