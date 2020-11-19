@@ -1,13 +1,24 @@
 This Section will cover different deployment patterns for Power BI Service based on distinctive organizational needs.
 
+| Deployment Pattern | Description | 
+|:------------------------:|:-----------------------:|
+| [Personal BI](https://github.com/lipinght/pbideployment/blob/main/DeploymentPatterns/DeploymentPatterns.md#personal-bi) | This deployment pattern applies to situations where users are authoring Power BI reports for personal use with no sharing or collaboration.  |
+| [Small Team Collaboration](https://github.com/lipinght/pbideployment/blob/main/DeploymentPatterns/DeploymentPatterns.md#small-team-collaboration) | This deployment pattern applies to situations where users are working within a small group, collaboration and distribution could be handled within a workspace.  |
+| [Large Team Collaboration and Distribution](https://github.com/lipinght/pbideployment/blob/main/DeploymentPatterns/DeploymentPatterns.md#large-team-collaboration-and-distribution) | This deployment pattern applies to situations where users are working with a large team, where the complexity for collaboration and distribution needs grows beyond using just a workspace. |
+| [Enterprise Content Distribution](https://github.com/lipinght/pbideployment/blob/main/DeploymentPatterns/DeploymentPatterns.md#enterprise-content-distribution) | This deployment pattern applies to situations where Power BI contents are created largely by central teams and there are significantly large amount of content consumers vs content creators.  |
+| [Centralized Datasets for Corporate Reporting](https://github.com/lipinght/pbideployment/blob/main/DeploymentPatterns/DeploymentPatterns.md#centralized-datasets-for-corporate-reporting) | This deployment pattern applies to situations where users are working with an enterprise deployment and would like to reuse and share Power BI datasets for different reports.  |
+| [Embedded for Internal](https://github.com/lipinght/pbideployment/blob/main/DeploymentPatterns/DeploymentPatterns.md#embedded-for-internal) | This deployment pattern applies to situations where users want to embed Power BI dashboards and reports into custom applications, SharePoint Online, Microsoft Teams, or even 3rd party application for internal/organzational consumption.   |
+| [Embedded for External](https://github.com/lipinght/pbideployment/blob/main/DeploymentPatterns/DeploymentPatterns.md#embedded-for-external) | This deployment pattern applies to situations where users want to embed Power BI content into custom applications which are used externally by customers and partners.   |
+
+
 # Personal BI
 ## Where does this pattern apply?
-This scenario applies to situations where users are authoring Power BI reports for personal use with no sharing or collaboration.  
+This deployment pattern applies to situations where users are authoring Power BI reports for personal use with no sharing or collaboration.  
 
 ## Type of Questions this Session will Address
-*	What does a Personal BI scenario look like?
-*	What type of license is involved in this usage scenario?
-*	What artifacts how usually involved in this usage scenario?
+*	What does a Personal BI deployment pattern look like?
+*	What type of license is involved in this deployment pattern?
+*	What artifacts how usually involved in this deployment pattern?
 
 ## Overview
 *	Users use Power BI Desktop to author queries, datasets and reports
@@ -24,12 +35,12 @@ For Details of this deployment pattern, please see Page 17 of the [Power BI depl
  
 # Small Team Collaboration
 ## Where does this pattern apply?
-This scenario applies to situations where users are working within a small group, collaboration and distribution could be handled within a workspace.
+This deployment pattern applies to situations where users are working within a small group, collaboration and distribution could be handled within a workspace.
 
 ## Type of Questions this Session will Address
-*	What does a Small Team Collaboration scenario look like?
-*	What type of license is involved in this usage scenario?
-*	What artifacts how usually involved in this usage scenario?
+*	What does a Small Team Collaboration deployment pattern look like?
+*	What type of license is involved in this deployment pattern?
+*	What artifacts how usually involved in this deployment pattern?
 *	How should I set up workspace if I have a small team collaboration on it?
 
 ## Overview
@@ -45,16 +56,16 @@ This scenario applies to situations where users are working within a small group
 
 --Insert Diagram
 ## Resources
-For Details of this usage scenario, please see Page 18 of the [Power BI deployment whitepaper](https://aka.ms/PBIEnterpriseDeploymentWP).
+For Details of this deployment pattern, please see Page 18 of the [Power BI deployment whitepaper](https://aka.ms/PBIEnterpriseDeploymentWP).
  
 # Large Team Collaboration and Distribution
  ## Where does this pattern apply?
-This scenario applies to situations where users are working with a large team, where the complexity for collaboration and distribution needs grows beyond using just a workspace. In this scenario, the recommendation is to use a workspace for collaboration and a app for distribution.
+This deployment pattern applies to situations where users are working with a large team, where the complexity for collaboration and distribution needs grows beyond using just a workspace. In this deployment pattern, the recommendation is to use a workspace for collaboration and a app for distribution.
 
 ## Type of Questions this Session will Address
-*	What does a large Team Collaboration scenario look like?
-* What type of license is involved in this usage scenario?
-* What artifacts how usually involved in this usage scenario?
+*	What does a large Team Collaboration deployment pattern look like?
+* What type of license is involved in this deployment pattern?
+* What artifacts how usually involved in this deployment pattern?
 * How should I set up workspace and app if I have a large team collaboration on them?
 
 
@@ -72,16 +83,16 @@ This scenario applies to situations where users are working with a large team, w
 
 --Insert Diagram
 ## Resources
-For Details of this usage scenario, please see Page 21 of the [Power BI deployment whitepaper](https://aka.ms/PBIEnterpriseDeploymentWP).
+For Details of this deployment pattern, please see Page 21 of the [Power BI deployment whitepaper](https://aka.ms/PBIEnterpriseDeploymentWP).
 
 # Enterprise Content Distribution
 ## Where does this pattern apply?
-This scenario applies to situations where Power BI contents are created largely by central teams and there are significantly large amount of content consumers vs content creators. Power BI premium becomes a cost-effective way to manage organizational level reporting.
+This deployment pattern applies to situations where Power BI contents are created largely by central teams and there are significantly large amount of content consumers vs content creators. Power BI premium becomes a cost-effective way to manage organizational level reporting.
 
 ## Type of Questions this Session will Address
-*	What does enterprise content distribution scenario look like?
-* What type of license is involved in this usage scenario?
-* What artifacts how usually involved in this usage scenario?
+*	What does enterprise content distribution deployment pattern look like?
+* What type of license is involved in this deployment pattern?
+* What artifacts how usually involved in this deployment patterno?
 
 
 ## Overview
@@ -94,16 +105,16 @@ This scenario applies to situations where Power BI contents are created largely 
 
 --Insert Diagram
 ## Resources
-For Details of this usage scenario, please see Page 22 of the [Power BI deployment whitepaper](https://aka.ms/PBIEnterpriseDeploymentWP).
+For Details of this deployment pattern, please see Page 22 of the [Power BI deployment whitepaper](https://aka.ms/PBIEnterpriseDeploymentWP).
 
 # Centralized Datasets for Corporate Reporting
 ## Where does this pattern apply?
-This scenario applies to situations where users are working with an enterprise deployment and would like to reuse and share Power BI datasets for different reports. In this scenario, datasets and reports are seperated. Datasets may be developed by the central teams and there may be significantly more report creators publish reports to different workspaces. 
+This deployment pattern applies to situations where users are working with an enterprise deployment and would like to reuse and share Power BI datasets for different reports. In this scenario, datasets and reports are seperated. Datasets may be developed by the central teams and there may be significantly more report creators publish reports to different workspaces. 
 
 ## Type of Questions this Session will Address
-*	What does a centralized datasets for reporting scenario look like?
-*	What type of license is involved in this usage scenario?
-*	What artifacts how usually involved in this usage scenario?
+*	What does a centralized datasets for reporting deployment pattern look like?
+*	What type of license is involved in this deployment pattern?
+*	What artifacts how usually involved in this deployment pattern?
 *	How should I set up workspaces if I want to have centralized datasets for enterprise reporting?
 
 ## Overview
@@ -114,17 +125,16 @@ This scenario applies to situations where users are working with an enterprise d
 
 --Insert Diagram
 ## Resources
-For Details of this usage scenario, please see Page 23 of the [Power BI deployment whitepaper](https://aka.ms/PBIEnterpriseDeploymentWP).
+For Details of this deployment pattern, please see Page 23 of the [Power BI deployment whitepaper](https://aka.ms/PBIEnterpriseDeploymentWP).
 
 # Embedded for Internal
 ## Where does this pattern apply?
-This scenario applies to situations where users want to embed Power BI dashboards and reports into custom applications, SharePoint Online, Microsoft Teams, or even 3rd party application for internal/organzational consumption. 
+This deployment pattern applies to situations where users want to embed Power BI dashboards and reports into custom applications, SharePoint Online, Microsoft Teams, or even 3rd party application for internal/organzational consumption. 
 
 ## Type of Questions this Session will Address
-*	What does a embed for my internal organization scenario look like?
-*	What type of license is involved in this usage scenario?
-*	What artifacts how usually involved in this usage scenario?
-* How should I set up workspace if I want to do embedded for my organization?
+*	What does a embed for my internal organization deployment pattern look like?
+*	What type of license is involved in this deployment pattern?
+*	What artifacts how usually involved in this deployment pattern?
 * How does authentication and authorization work with embedded?
 
 
@@ -138,17 +148,16 @@ This scenario applies to situations where users want to embed Power BI dashboard
 
 --Insert Diagram
 ## Resources
-For Details of this usage scenario, please see Page 26 of the [Power BI deployment whitepaper](https://aka.ms/PBIEnterpriseDeploymentWP).
+For Details of this deployment pattern, please see Page 26 of the [Power BI deployment whitepaper](https://aka.ms/PBIEnterpriseDeploymentWP).
  
 # Embedded for External
 ## Where does this pattern apply?
-This scenario applies to situations where users want to embed Power BI content into custom applications which are used externally by customers and partners. 
+This deployment pattern applies to situations where users want to embed Power BI content into custom applications which are used externally by customers and partners. 
 
 ## Type of Questions this Session will Address
-*	What does a embedded for external customers scenario look like?
-*	What type of license is involved in this usage scenario?
-*	What artifacts how usually involved in this usage scenario?
-*	How should I set up workspace if I want to do embedded for external customers on them?
+*	What does a embedded for external customers deployment pattern look like?
+*	What type of license is involved in this deployment pattern?
+*	What artifacts how usually involved in this deployment pattern?
 *	How does authentication and authorization work with embedded?
 
 
@@ -162,5 +171,5 @@ This scenario applies to situations where users want to embed Power BI content i
 
 --Insert Diagram
 ## Resources
-For Details of this usage scenario, please see Page 27 of the [Power BI deployment whitepaper](https://aka.ms/PBIEnterpriseDeploymentWP).
+For Details of this deployment pattern, please see Page 27 of the [Power BI deployment whitepaper](https://aka.ms/PBIEnterpriseDeploymentWP).
  
