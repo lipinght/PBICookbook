@@ -80,8 +80,8 @@ This deployment pattern applies to situations where users are working with a lar
 *	On-Premises Data Gateway in Standard Mode supports data refresh, live connection or direct query
 *	Users can use Power BI mobile app
 *	Users can use integration with Microsoft teams to facilitate data-driven decision-making
+![largeteam.png](images/largeteam.PNG)
 
---Insert Diagram
 ## Resources
 For Details of this deployment pattern, please see Page 21 of the [Power BI deployment whitepaper](https://aka.ms/PBIEnterpriseDeploymentWP).
 
