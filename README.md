@@ -16,4 +16,3 @@ This is a repo that summarize main concepts and consolidates useful resources wh
 *	Workspace governance/access control/process to control who create premium workspace 
 *	Monitoring 
 *	Performance Tuning
-
