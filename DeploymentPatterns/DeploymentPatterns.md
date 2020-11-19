@@ -1,4 +1,4 @@
-This Session will cover different deployment patterns for Power BI Service based on distinctive organizational needs.
+This Section will cover different deployment patterns for Power BI Service based on distinctive organizational needs.
 
 # Personal BI
 ## Where does this pattern apply?
@@ -90,10 +90,7 @@ This scenario applies to situations where Power BI contents are created largely 
 * Organization/entperprise level implementation can take advantage of the cost-effectiveness Power BI Premium by having large amount of content consumers on free licenses
 * Premium gives organizational level implementation dedicated compute capacity as opposed to the shared capacity that pro license gives.
 * Larger implementations may also find advantages from the larger storage limits, larger dataset sizes, higher refresh rates, and other Premium features.
-*	Users can use features such as reschedule data refresh, use email subscriptions, dashboards and data alerts and are recommended to use features such as live connections and analyse in Excel
-*	On-Premises Data Gateway in Standard Mode supports data refresh, live connection or direct query
-*	Users can use Power BI mobile app
-*	Users can use integration with Microsoft teams to facilitate data-driven decision-making
+* External Power BI users can be added as guest users to organization's azure active directory, they can view content via browser, not mobile app.
 
 --Insert Diagram
 ## Resources
@@ -101,8 +98,7 @@ For Details of this usage scenario, please see Page 22 of the [Power BI deployme
 
 # Centralized Datasets for Corporate Reporting
 ## Where does this pattern apply?
--
-This scenario applies to situations where users are working within a small group, collaboration and distribution could be handled within a workspace.
+This scenario applies to situations where users are working with an enterprise deployment and would like to reuse and share Power BI datasets for different reports. In this scenario, datasets and reports are seperated. Datasets may be developed by the central teams and there may be significantly more report creators publish reports to different workspaces. 
 
 ## Type of Questions this Session will Address
 *	What does a centralized datasets for reporting scenario look like?
@@ -111,16 +107,10 @@ This scenario applies to situations where users are working within a small group
 *	How should I set up workspaces if I want to have centralized datasets for enterprise reporting?
 
 ## Overview
--
-*	Users use Power BI Desktop to author queries, datasets and reports 
-*	The .pbix file is recommended to be sored in a common location such as OneDrive
-*	All content creators and consumers require a Pro license unless the workspace has Premium capacity (in which case users with a Power BI Free license may view content which resides in Premium)
-*	For a small team collaboration, team can use the workspace fro both authoring and collaboration as well as distribution and delivery of content
-*	Apps can be optionally used to deliver read-only content to users, unless small teams do not desire the additional management overhead for apps
-*	Users can use features such as reschedule data refresh, use email subscriptions, dashboards and data alerts and are recommended to use features such as live connections and analyse in Excel
-*	On-Premises Data Gateway in Standard Mode supports data refresh, live connection or direct query
-*	Users can use Power BI mobile app
-*	Users can use integration with Microsoft teams to facilitate data-driven decision-making
+*	Datasets and reports are decoupled, data modelers use Power BI Desktop to author datasets and report creators connect to shared Power BI datasets via a live connection. 
+*	Workspace permissions are seperated for data management permissions and report publishing permissions.
+*	Shared datasets serves as a semantic layer that provides "the single version of truth", organizations can choose to use Analysis Services or Direct Query to a Data Warhouse to serve the same purpose 
+*	To allow access to the shared dataset, a “build” permission needs be assigned to the dataset. This allows approved report authors to create new content using the dataset. 
 
 --Insert Diagram
 ## Resources
@@ -128,8 +118,7 @@ For Details of this usage scenario, please see Page 23 of the [Power BI deployme
 
 # Embedded for Internal
 ## Where does this pattern apply?
--
-This scenario applies to situations where users are working within a small group, collaboration and distribution could be handled within a workspace.
+This scenario applies to situations where users want to embed Power BI dashboards and reports into custom applications, SharePoint Online, Microsoft Teams, or even 3rd party application for internal/organzational consumption. 
 
 ## Type of Questions this Session will Address
 *	What does a embed for my internal organization scenario look like?
@@ -140,16 +129,12 @@ This scenario applies to situations where users are working within a small group
 
 
 ## Overview
--
-*	Users use Power BI Desktop to author queries, datasets and reports 
-*	The .pbix file is recommended to be sored in a common location such as OneDrive
-*	All content creators and consumers require a Pro license unless the workspace has Premium capacity (in which case users with a Power BI Free license may view content which resides in Premium)
-*	For a small team collaboration, team can use the workspace fro both authoring and collaboration as well as distribution and delivery of content
-*	Apps can be optionally used to deliver read-only content to users, unless small teams do not desire the additional management overhead for apps
-*	Users can use features such as reschedule data refresh, use email subscriptions, dashboards and data alerts and are recommended to use features such as live connections and analyse in Excel
-*	On-Premises Data Gateway in Standard Mode supports data refresh, live connection or direct query
-*	Users can use Power BI mobile app
-*	Users can use integration with Microsoft teams to facilitate data-driven decision-making
+* The whitepaper linked in resources detials the usage of Power BI Premium (P or EM Skus)for embedding for internal users.
+*	Users use Power BI Desktop to author queries, datasets and reports, row-level security is set up in the same way as contents published in Power BI Service
+* Power BI Rest API is used for embedding dashboards and reports 
+* Datasets, dashboards and reports should be published to a specific Power BI workspace which has been designated for the embedded analytics project. 
+* When embedding content at organizational level using Power BI Premium, users are authenticating via AAD based on their own AAD account. This allows same row-level security configuration as previous scenarios.
+* All users need a Pro license or contents need to reside in a workspace backed by premium capacity.
 
 --Insert Diagram
 ## Resources
@@ -157,8 +142,7 @@ For Details of this usage scenario, please see Page 26 of the [Power BI deployme
  
 # Embedded for External
 ## Where does this pattern apply?
--
-This scenario applies to situations where users are working within a small group, collaboration and distribution could be handled within a workspace.
+This scenario applies to situations where users want to embed Power BI content into custom applications which are used externally by customers and partners. 
 
 ## Type of Questions this Session will Address
 *	What does a embedded for external customers scenario look like?
@@ -169,16 +153,12 @@ This scenario applies to situations where users are working within a small group
 
 
 ## Overview
--
-*	Users use Power BI Desktop to author queries, datasets and reports 
-*	The .pbix file is recommended to be sored in a common location such as OneDrive
-*	All content creators and consumers require a Pro license unless the workspace has Premium capacity (in which case users with a Power BI Free license may view content which resides in Premium)
-*	For a small team collaboration, team can use the workspace fro both authoring and collaboration as well as distribution and delivery of content
-*	Apps can be optionally used to deliver read-only content to users, unless small teams do not desire the additional management overhead for apps
-*	Users can use features such as reschedule data refresh, use email subscriptions, dashboards and data alerts and are recommended to use features such as live connections and analyse in Excel
-*	On-Premises Data Gateway in Standard Mode supports data refresh, live connection or direct query
-*	Users can use Power BI mobile app
-*	Users can use integration with Microsoft teams to facilitate data-driven decision-making
+*	The whitepaper linked in resourcse covers in detail the usage of Power BI Embedded (A SKUs) Licence in embedding content for external users 
+*	Users use Power BI Desktop to author queries, datasets and reports, and contents can published in Power BI Service as normal. If required, row level security can be defined.
+* Power BI Rest API is used for embedding contents
+* Datasets, dashboards and reports should be published to a specific Power BI workspace which has been designated for the embedded analytics project. 
+* When embedding via Power BI Embedded application users are authenticated and authorized by the application and not application users do not need Power BI license. The application connects to Power BI through AAD based on service principle or master account.
+* Power BI embedded service can be paused when not in use and scaled up or down to handle varying workload levels.
 
 --Insert Diagram
 ## Resources
