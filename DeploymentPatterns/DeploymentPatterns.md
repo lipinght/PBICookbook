@@ -28,7 +28,7 @@ This deployment pattern applies to situations where users are authoring Power BI
 *	On-Premises Data Gateway in Personal Mode supports data refresh , does not support live connection or direct query
 *	Users can use Power BI mobile app
 
---Insert Diagram
+![personal.png](images/personal.PNG)
 ## Resources
 For Details of this deployment pattern, please see Page 17 of the [Power BI deployment whitepaper](https://aka.ms/PBIEnterpriseDeploymentWP).
  
@@ -54,7 +54,7 @@ This deployment pattern applies to situations where users are working within a s
 *	Users can use Power BI mobile app
 *	Users can use integration with Microsoft teams to facilitate data-driven decision-making
 
---Insert Diagram
+![smallteam.png](images/smallteam.PNG)
 ## Resources
 For Details of this deployment pattern, please see Page 18 of the [Power BI deployment whitepaper](https://aka.ms/PBIEnterpriseDeploymentWP).
  
@@ -80,7 +80,7 @@ This deployment pattern applies to situations where users are working with a lar
 *	On-Premises Data Gateway in Standard Mode supports data refresh, live connection or direct query
 *	Users can use Power BI mobile app
 *	Users can use integration with Microsoft teams to facilitate data-driven decision-making
-![largeteam.png](images/largeteam.PNG)
+![largeteam.png](images/largeteam.PNG) 
 
 ## Resources
 For Details of this deployment pattern, please see Page 21 of the [Power BI deployment whitepaper](https://aka.ms/PBIEnterpriseDeploymentWP).
@@ -103,7 +103,8 @@ This deployment pattern applies to situations where Power BI contents are create
 * Larger implementations may also find advantages from the larger storage limits, larger dataset sizes, higher refresh rates, and other Premium features.
 * External Power BI users can be added as guest users to organization's azure active directory, they can view content via browser, not mobile app.
 
---Insert Diagram
+![enterprise.png](images/enterprise.PNG)
+
 ## Resources
 For Details of this deployment pattern, please see Page 22 of the [Power BI deployment whitepaper](https://aka.ms/PBIEnterpriseDeploymentWP).
 
@@ -123,7 +124,7 @@ This deployment pattern applies to situations where users are working with an en
 *	Shared datasets serves as a semantic layer that provides "the single version of truth", organizations can choose to use Analysis Services or Direct Query to a Data Warhouse to serve the same purpose 
 *	To allow access to the shared dataset, a “build” permission needs be assigned to the dataset. This allows approved report authors to create new content using the dataset. 
 
---Insert Diagram
+![sharedds.png](images/sharedds.PNG)
 ## Resources
 For Details of this deployment pattern, please see Page 23 of the [Power BI deployment whitepaper](https://aka.ms/PBIEnterpriseDeploymentWP).
 
@@ -146,7 +147,7 @@ This deployment pattern applies to situations where users want to embed Power BI
 * When embedding content at organizational level using Power BI Premium, users are authenticating via AAD based on their own AAD account. This allows same row-level security configuration as previous scenarios.
 * All users need a Pro license or contents need to reside in a workspace backed by premium capacity.
 
---Insert Diagram
+![embedin.png](images/embedin.PNG)
 ## Resources
 For Details of this deployment pattern, please see Page 26 of the [Power BI deployment whitepaper](https://aka.ms/PBIEnterpriseDeploymentWP).
  
@@ -169,7 +170,7 @@ This deployment pattern applies to situations where users want to embed Power BI
 * When embedding via Power BI Embedded application users are authenticated and authorized by the application and not application users do not need Power BI license. The application connects to Power BI through AAD based on service principle or master account.
 * Power BI embedded service can be paused when not in use and scaled up or down to handle varying workload levels.
 
---Insert Diagram
+![embedex.png](images/embedex.PNG)
 ## Resources
 For Details of this deployment pattern, please see Page 27 of the [Power BI deployment whitepaper](https://aka.ms/PBIEnterpriseDeploymentWP).
  
