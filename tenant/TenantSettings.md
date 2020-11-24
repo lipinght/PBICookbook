@@ -20,7 +20,21 @@
 | [Export reports as XML documents](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#export-reports-as-xml-documents) | Users in the organization can export Paginated reports as XML documents | Should usually be enabled for all users without any limitations for maximum productivity |
 | [Export reports as image files (preview)](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#export-reports-as-image-files-preview) | Users in the organization can use the export report to file API to export reports as image files | Should usually be enabled for all users without any limitations for maximum productivity |
 | [Print dashboards and reports](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#print-dashboards-and-reports) | Users are able to print reports and dashboards in the Power BI service | Should usually be enabled for all users without any limitations for maximum productivity |
-| [Download reports](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#download-reports) | Users in the organization can download .pbix files and 
-paginated reports | N/A | 
+| [Download reports](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#download-reports) | Users in the organization can download .pbix files and paginated reports | N/A | 
 | [Allow live connections](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#allow-live-connections) | Users in the organization can use Power BI service Live Connect. This includes Analyze in Excel | Should usually be enabled for all users without any limitations for maximum productivity.  | 
+| [Certification](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#certification) | Allow users in this org to certify datasets, dataflows, reports, and apps | The ability to certify content should be restricted to a small group of subject matter experts | 
+| [Featured content](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#certification) | Allow some or all report authors in your organization to feature their content on the Featured section of Power BI Home | Start with a small set of promoters first. Allowing the entire organization to feature content on Home may make it difficult to keep track of all the promoted content | 
+| [Allow connections to featured tables](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#allow-connections-to-featured-tables) | This setting lets Power BI admins control who in the organization can use [featured tables](https://docs.microsoft.com/en-us/power-bi/collaborate-share/service-excel-featured-tables) in the Excel Data Types Gallery | Should usually be enabled for maximum productivity |
+| [Email Subscriptions](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#email-subscriptions) | Users in the organization can create email subscriptions | Should usually be enabled for maximum productivity |
+| [Share to Teams](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#share-to-teams) | This setting allows organizations to hide the Share to Teams buttons in the Power BI service | Should usually be enabled for maximum productivity |
+| [Publish apps to th entire organization](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#publish-content-packs-and-apps-to-the-entire-organization) | Permits publishing of apps to the entire organization, rather than specific groups | Restrict to BI teams |
+| [Create template apps](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#create-template-apps-and-organizational-content-packs) | Permits the creation of [template apps](https://docs.microsoft.com/en-us/power-bi/connect-data/service-template-apps-create) | Restrict to BI teams |
+| [Push apps to end users](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#push-apps-to-end-users) | Allows the ability to automatically install a published app on the users’ Apps menu | Restrict to BI teams |
+
+
+
+
+
+
+
 
