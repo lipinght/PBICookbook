@@ -1,18 +1,20 @@
 # pbideployment
 
 This is a repo that summarize main concepts and consolidates useful resources when it comes to key areas of Power BI deployment. The Key Areas that are covered in the repo are:  
-*	Pro vs Premium, M
-*	[Deployment Pattern](https://github.com/lipinght/pbideployment/blob/main/DeploymentPatterns/DeploymentPatterns.md), Liping
-*	Architectural Choices, decision tree 
-*	[Tenant Settings](https://github.com/lipinght/pbideployment/blob/main/tenant/TenantSettings.md)
-*	[Deployment Pipeline](https://github.com/lipinght/pbideployment/blob/main/DeploymentPipeline/DeploymentPipeline.md), Liping
-*  Data Flows
-*	Best Practice
-    * Modelling, M
-    * Governance, Together
-    * Visual, Liping
-    * More
-*	Security
-*	Workspace governance/access control/process to control who create premium workspace 
+| Topic | Overview | Status | 
+|:------:|:-----:|:-----:|
+|Pro vs Premium |Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.| Not started - M |
+|[Deployment Pattern](https://github.com/lipinght/pbideployment/blob/main/DeploymentPatterns/DeploymentPatterns.md)|Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.| Completed - L |
+|Architectural Choices, decision tree |Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.| Not started |
+|[Tenant Settings](https://github.com/lipinght/pbideployment/blob/main/tenant/TenantSettings.md)|Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.|WIP |
+|[Deployment Pipeline](https://github.com/lipinght/pbideployment/blob/main/DeploymentPipeline/DeploymentPipeline.md)|Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.| Completed - Liping |
+|Data Flows|Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.|Not Started|
+|Modelling - best practices|Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.|Not started|
+|Governance|Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.|Not started|
+|Visualisation - best practices|Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.|Not started|
+|Security|Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.|Not started|
+
+# More topics
+*  Workspace governance/access control/process to control who create premium workspace 
 *	Monitoring 
 *	Performance Tuning
