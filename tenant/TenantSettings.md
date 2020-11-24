@@ -52,16 +52,32 @@
 | [Use global search for Power BI](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#use-global-search-for-power-bi-preview) | Users in the organization can use external search features that rely on Azure Search | Typically, there are no concerns with this being enabled. Content would be very difficult to locate without the search functionality |
 | [R visuals settings](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#r-visuals-settings) | Users in the organization can interact with and share visuals created with R scripts | Since R visuals can potentially represent data privacy or data leakage concerns, depending on the individual developer, this should be used with a measure of caution |
 
+### Audit and usage
+| Settings | Description | Recomended Value |
+|:------------------------:|:-----------------------:|:-----------:|
+| [Create audit logs for internal activity auditing and compliance](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#create-audit-logs-for-internal-activity-auditing-and-compliance) | Permits actions taken in Power BI to be captured in the audit logs in Office 365 | Should be enabled |
+| [Usage metrics for content creators](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#usage-metrics-for-content-creators-1) | Permits individuals to view the usage metrics related to the dashboards and reports they published | Should be enabled so that content creators are able to understand the effectiveness of the solutions they create |
+| [Per-user data in usage metrics for content creators](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#per-user-data-in-usage-metrics-for-content-creators-1) | Usage metrics for content creators will expose display names and email addresses of users who are accessing content | Typically enabled. Hiding names and e-mail addresses from certain content authors would usually be an exception; the ability to contact users directly about how they use the content can be very valuable to improving the content |
 
+### Dashboard
+| Settings | Description | Recomended Value |
+|:------------------------:|:-----------------------:|:-----------:|
+| [Data classification for dashboards](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#data-classification-for-dashboards) | Users in the organization can tag dashboards with classifications that indicate dashboard security levels | Sensitivity labels in conjunction with Microsoft Information Protection should be used instead of data classifications |
+| [Web content on dashboard tiles](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#web-content-on-dashboard-tiles) | Users in the organization can add and view web content tiles on Power BI dashboards |  Typically enabled, though if the organization has a more restrictive security policy this could be restricted |
 
+### Developer
+| Settings | Description | Recomended Value |
+|:------------------------:|:-----------------------:|:-----------:|
+| [Embed content in apps](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#embed-content-in-apps) | Users in the organization can embed Power BI dashboards and reports in Software as a Service (SaaS) applications |  Should be enabled only for specific groups, such as custom developers, as appropriate |
+| [Allow service principals to use Power BI APIs](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#allow-service-principals-to-use-power-bi-apis) | Web apps registered in Azure Active Directory (Azure AD) will use an assigned service principal to access Power BI APIs without a signed in user | Should be enabled for a tightly controlled list of service principals |
 
+### Template app
+| Settings | Description | Recomended Value |
+|:------------------------:|:-----------------------:|:-----------:|
+| [Publish Template Apps](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#publish-template-apps) | Users in the organization can create template apps workspaces |  Typically disabled by most organizations, as this is usually only applicable to software vendors who publish template apps to AppSource |
+| [Install template apps listed on AppSource](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#install-template-apps-listed-on-appsource) | Specifies who may use template apps which are found in AppSource, such as Salesforce or Google Analytics | Should be enabled to encourage maximum user productivity and user satisfaction |
+| [Install template apps not listed on AppSource](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#install-template-apps-not-listed-on-appsource) | Control which users in the organization can download and install template apps not listed on AppSource | Should be disabled |
 
-
-
-
-
-
-
-
-
+## Resources
+For details of this deployment pattern, please see Page 184 of the [Power BI deployment whitepaper](https://aka.ms/PBIEnterpriseDeploymentWP).
 
