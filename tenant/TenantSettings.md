@@ -1,11 +1,20 @@
 ## Main Settings
 
+### Help and support
 | Settings | Description | Recomended Value |
 |:------------------------:|:-----------------------:|:-----------:|
 | [Publish "Get Help" information](https://docs.microsoft.com/en-us/power-bi/guidance/admin-tenant-settings#publish-get-help-information) | Custom URLs which can replace the built-in URLs on the help menu | Set relevant values | 
 | [Receive email notifications for service outages or incidents](https://docs.microsoft.com/en-us/power-bi/guidance/admin-tenant-settings#receive-email-notification-service-outages-or-incidents) | Specifies which group which is informed via e-mail when an incident is occurring which impacts reliability | Add mail-enabled group for Power BI Support | 
+
+### Workspaces
+| Settings | Description | Recomended Value |
+|:------------------------:|:-----------------------:|:-----------:|
 | [Create workspaces](https://docs.microsoft.com/en-us/power-bi/guidance/admin-tenant-settings#create-workspaces) | Specifies which Power BI Pro users in the organization are permitted to create new workspaces. | Enable only as needed, supported by a resposive workspace creation request process | 
 | [Use datasets across workspaces](https://docs.microsoft.com/en-us/power-bi/connect-data/service-datasets-admin-across-workspaces) | Permits report designers to create reports in one workspace that connect to datasets in a different workspace, assuming the requisite permissions have been granted fot the dataset | Enable for all users | 
+
+### Export and Sharing
+| Settings | Description | Recomended Value |
+|:------------------------:|:-----------------------:|:-----------:|
 | [Allow users to apply sensitivity labels for Power BI content](https://docs.microsoft.com/en-us/power-bi/admin/service-security-enable-data-sensitivity-labels) | Specifies which users in the organization are permitted to apply sensitivity labels to content published in the Power BI service | Allow for all content authors | 
 | [Allow Azure Active Directory guest users to access Power BI](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#allow-azure-active-directory-guest-users-to-access-power-bi) | Enabling this setting allows Azure Active Directory Business-to-Business (Azure AD B2B) guest users to access Power BI | This setting should be aligned with the organization’s security policy | 
 | [Invite external users to your organization](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#invite-external-users-to-your-organization) | The Invite external users to your organization setting helps organizations choose whether new external users can be invited to the organization through Power BI sharing and permissions experiences | This setting should be aligned with the organization’s security policy |
@@ -27,9 +36,27 @@
 | [Allow connections to featured tables](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#allow-connections-to-featured-tables) | This setting lets Power BI admins control who in the organization can use [featured tables](https://docs.microsoft.com/en-us/power-bi/collaborate-share/service-excel-featured-tables) in the Excel Data Types Gallery | Should usually be enabled for maximum productivity |
 | [Email Subscriptions](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#email-subscriptions) | Users in the organization can create email subscriptions | Should usually be enabled for maximum productivity |
 | [Share to Teams](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#share-to-teams) | This setting allows organizations to hide the Share to Teams buttons in the Power BI service | Should usually be enabled for maximum productivity |
+
+### Apps
+| Settings | Description | Recomended Value |
+|:------------------------:|:-----------------------:|:-----------:|
 | [Publish apps to th entire organization](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#publish-content-packs-and-apps-to-the-entire-organization) | Permits publishing of apps to the entire organization, rather than specific groups | Restrict to BI teams |
 | [Create template apps](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#create-template-apps-and-organizational-content-packs) | Permits the creation of [template apps](https://docs.microsoft.com/en-us/power-bi/connect-data/service-template-apps-create) | Restrict to BI teams |
 | [Push apps to end users](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#push-apps-to-end-users) | Allows the ability to automatically install a published app on the users’ Apps menu | Restrict to BI teams |
+
+### Integration
+| Settings | Description | Recomended Value |
+|:------------------------:|:-----------------------:|:-----------:|
+| [Allow XMLA endpoints and Analyze in Excel with on-premises datasets](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#allow-xmla-endpoints-and-analyze-in-excel-with-on-premises-datasets) | Users in the organization can use Excel to view and interact with on-premises Power BI datasets | Should be enabled for Analysis Services on prem, if used |
+| [Use ArcGIS Maps for Power BI](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#use-arcgis-maps-for-power-bi) | Users in the organization can use the ArcGIS Maps for Power BI visualization provided by Esri | Should be disabled if the organization does not use Esri services for mapping |
+| [Use global search for Power BI](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#use-global-search-for-power-bi-preview) | Users in the organization can use external search features that rely on Azure Search | Typically, there are no concerns with this being enabled. Content would be very difficult to locate without the search functionality |
+| [R visuals settings](https://docs.microsoft.com/en-us/power-bi/admin/service-admin-portal#r-visuals-settings) | Users in the organization can interact with and share visuals created with R scripts | Since R visuals can potentially represent data privacy or data leakage concerns, depending on the individual developer, this should be used with a measure of caution |
+
+
+
+
+
+
 
 
 
