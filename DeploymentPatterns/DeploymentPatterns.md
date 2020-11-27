@@ -10,6 +10,7 @@ This Section will cover different deployment patterns for Power BI Service based
 | [Embedded for Internal](https://github.com/lipinght/pbideployment/blob/main/DeploymentPatterns/DeploymentPatterns.md#embedded-for-internal) | This deployment pattern applies to situations where users want to embed Power BI dashboards and reports into custom applications, SharePoint Online, Microsoft Teams, or even 3rd party application for internal/organzational consumption.   |
 | [Embedded for External](https://github.com/lipinght/pbideployment/blob/main/DeploymentPatterns/DeploymentPatterns.md#embedded-for-external) | This deployment pattern applies to situations where users want to embed Power BI content into custom applications which are used externally by customers and partners.   |
 
+[Link to Diagram PPT](https://github.com/lipinght/pbideployment/blob/main/DeploymentPatterns/images/Power%20BI%20Deployment%20Pattern.pptx)
 
 # Personal BI
 ## Where does this pattern apply?
