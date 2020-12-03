@@ -5,6 +5,7 @@ and Azure Logic Apps. In this context, on-premise data includes data only availa
 ## High level architecture
 ![architecture.png](https://docs.microsoft.com/en-us/data-integration/gateway/media/service-gateway-onprem-indepth/on-prem-data-gateway-how-it-works.png)
 
+## Index
 | Topic | Description |
 |:------------------------:|:-----------------------:|
 | [Overview](https://docs.microsoft.com/en-us/data-integration/gateway/service-gateway-onprem) | What is the on-premises data gateway | 
