@@ -28,6 +28,7 @@ and Azure Logic Apps. In this context, on-premise data includes data only availa
 *	Don't install a gateway on a computer, like a laptop, that might be turned off, asleep, or disconnected from the internet
 *	If a gateway uses a wireless network, its performance might suffer
 * The gateway server requires strong network connectivity (preferably not wireless), high bandwidth, and consistent internet access. ExpressRoute or Azure Private Link is highly recommended. To measure your network throughput, you can use the [Azure Speed Test app](https://azurespeedtest.azurewebsites.net/)
+* The gateway can't be installed on a machine that already has a gateway installed, or a domain controller
 * The gateway server should reside as close to the data sources as practical to minimize network latency
 * Use of a machine dedicated to gateway operations vs. a multipurpose machine (such as a server with SQL Server already installed). If an existing server is currently underused, using an existing machine is often a good place to start. However, using a dedicated server for the data gateway is a best practice 
 * The production gateway cluster should be configured with at least two servers to achieve high availability and load balancing. Dev/test gateways can have less nodes and less resources
