@@ -41,7 +41,7 @@ which is trusted.
 * The gateway can be shared between multiple applications (Power BI, Power Apps, Power Automate, Logic Apps, Azure Analysis Services), but the data sources for each application have to be independently configured 
 * In Power BI, a scheduled refresh can only use one gateway even if using multiple data sources
 * Direct Query workloads tend to be more CPU intensive, while Import workloads tend to be highly memory-dependent
-* Depnding on the data source, specific drivers might need to be installed on the gateway machine (SAP, Oracle ... )
+* Depending on the data source, specific drivers might need to be installed on the gateway machine (SAP, Oracle ... )
 * When possible, we recommend registering the gateway servers in the standard IT monitoring platform. This allows for real-time alerting if one there are issues with the production gateway cluster
 
 ### Naming conventions example
