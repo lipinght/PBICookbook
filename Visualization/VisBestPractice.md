@@ -1,5 +1,5 @@
-VisBestPractice.md
-#Overview
+# Overview
+
 | Type | Description | Resource |
 |:------------------------:|:-----------------------:|:-----------:|
 | Desktop |Best practices in visualization creation in Power BI Desktop  | [Youtube](https://www.youtube.com/watch?v=2QMhm_5HVyo&t=414s) | 
@@ -7,8 +7,10 @@ VisBestPractice.md
 | Dashboard |Microsoft Documentation Dashboard Design Tips |[Microsoft Doc](https://docs.microsoft.com/en-us/power-bi/create-reports/service-dashboards-design-tips) | 
 | Dashboard |Power BI visualization best practices by Marco Russo. | [Youtube](https://www.youtube.com/watch?v=-tdkUYrzrio) | 
 
-#Detailed Breakdown
-##Desktop
+# Detailed Breakdown
+
+## Desktop
+
 | Category | Description | Minutes and Link |
 |:------------------------:|:-----------------------:|:-----------:|
 | General |Pro Design Tips  | 16:48  [Youtube](https://www.youtube.com/watch?v=WKWP_-6YmFE&feature=emb_logo) | 
@@ -28,7 +30,8 @@ VisBestPractice.md
 | Other |Version Control  | 55:05 [Youtube](https://www.youtube.com/watch?v=2QMhm_5HVyo&t=414s) | 
 
 
-##Dashboard
+## Dashboard
+
 1. Design for a target
 2. Keep everything at a galance
 3. Keep it simple 26:11  [Youtube](https://www.youtube.com/watch?v=-tdkUYrzrio)
