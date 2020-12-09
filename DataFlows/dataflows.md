@@ -1,5 +1,5 @@
 | Category | Description | Resource | 
-|:------:|:-----:|:-----:|
+|:------:|:-----|:-----:|
 |Overview|Power BI Data Flows use case|[Microsoft Doc](https://docs.microsoft.com/en-us/power-bi/transform-model/dataflows/dataflows-introduction-self-service#when-to-use-dataflows)|
 |Overview|Premium features of dataflows|[Microsoft Doc](https://docs.microsoft.com/en-us/power-bi/transform-model/dataflows/dataflows-premium-features)|
 |Overview|Dataflows limitations and considerations|[Microsoft Doc](https://docs.microsoft.com/en-us/power-bi/transform-model/dataflows/dataflows-features-limitations)|
