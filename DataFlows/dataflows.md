@@ -9,3 +9,4 @@
 |Configuration|Configure and consume dataflows|[Microsoft Doc](https://docs.microsoft.com/en-us/power-bi/transform-model/dataflows/dataflows-configure-consume)|
 |Tutorial|Connect to data created by Power Platform dataflows in Power BI Desktop|[Microsoft Doc](https://docs.microsoft.com/en-us/power-bi/transform-model/desktop-connect-dataflows)|
 |Tutorial|AI with data flows|[Microsoft Doc](https://docs.microsoft.com/en-us/power-bi/transform-model/dataflows/dataflows-machine-learning-integration)|
+|Tutorial|Diagram View for Dataflows |[Guy in a Cube Youtube](https://www.youtube.com/watch?v=h9r0BOTQxmQ)|
