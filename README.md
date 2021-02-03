@@ -9,4 +9,4 @@ This is a repo that summarize main concepts and consolidates useful resources wh
 * [On-Premises Gateway](https://github.com/lipinght/PBICookbook/blob/main/Gateway/GatewayOverview.md)
 * [Tenant Settings](https://github.com/lipinght/pbideployment/blob/main/tenant/TenantSettings.md)
 * [Visualisation - Best Practices](https://github.com/lipinght/pbideployment/blob/main/Visualization/VisBestPractice.md)
-* [Power BI Integration]()
+* [Power BI Integration](https://github.com/lipinght/PBICookbook/blob/main/PowerBIIntegration/Integration.md)
