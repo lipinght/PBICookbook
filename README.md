@@ -10,3 +10,5 @@ This is a repo that summarize main concepts and consolidates useful resources wh
 * [Tenant Settings](https://github.com/lipinght/pbideployment/blob/main/tenant/TenantSettings.md)
 * [Visualisation - Best Practices](https://github.com/lipinght/pbideployment/blob/main/Visualization/VisBestPractice.md)
 * [Power BI Integration](https://github.com/lipinght/PBICookbook/blob/main/PowerBIIntegration/Integration.md)
+* [Purview for Power BI](https://github.com/lipinght/PBICookbook/tree/main/PurviewforPBI)
+
