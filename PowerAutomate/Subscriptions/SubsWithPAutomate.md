@@ -4,6 +4,12 @@ However, currently subscriptions sent to all recipients are with the same attach
 This blog covers an alternative approach using power automate, in which you are able to send different attachments to recipients based on their roles set up in Power BI dataset's security model.
 
 
+| [Power BI Dataset](#power-bi-dataset) 
+| [Power Automate set-up](#power-automate-set-up) 
+| [Considerations](#considerations) 
+|
+
+
 ## Power BI Dataset
 
 1. Have a Power BI dataset in import or direct query mode. Once published, the datasets should <b>not</b> be configured with the SSO option in order for this to work. For this example, data from the [Adventure Works sample database](https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms) is used. 
@@ -88,7 +94,7 @@ User B email attachment.
 ![output_2.png](images/output_2.png)    
 
 
-# CONSIDERATIONS:
+## CONSIDERATIONS:
 * This approach requires a Power BI reserved capacity to run.
 * Passing the identity username does not work when using Paginated Report to direct query SQL data sources as opposed to building Paginated Report using Power BI dataset as a source. 
 * In addition to identity username, you can use parameters to do data drive subscription if you wish.
