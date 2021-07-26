@@ -10,7 +10,7 @@ However, currently subscriptions sent to all recipients are with the same attach
 |
 
 ## Overview
-This blog covers an alternative approach using power automate, in which you are able to send different attachments to recipients based on their roles set up in Power BI dataset's security model.
+This blog covers an alternative approach using [Power Automate](https://preview.flow.microsoft.com/en-us/), in which you are able to send different attachments to recipients based on their roles set up in Power BI dataset's security model.
 
 ![overview.png](images/overview.png)
 
