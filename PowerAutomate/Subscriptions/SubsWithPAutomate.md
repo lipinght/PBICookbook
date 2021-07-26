@@ -7,7 +7,7 @@ However, currently subscriptions sent to all recipients are with the same attach
 | [Power BI Dataset](#power-bi-dataset) 
 | [Power Automate set-up](#power-automate-set-up) 
 | [Considerations](#considerations) 
-|
+| [Resources](#resources)
 
 ## Overview
 This blog covers an alternative approach using [Power Automate](https://preview.flow.microsoft.com/en-us/), in which you are able to send different attachments to recipients based on their roles set up in Power BI dataset's security model.
@@ -106,4 +106,8 @@ User B email attachment.
 * Emails are case sensitive 
 * You need to be workspace admin to set up power automate flow
 
+## RESOURCES:
 
+* [Export Power BI paginated reports with Power Automate](https://docs.microsoft.com/en-us/power-bi/collaborate-share/service-automate-paginated-integration)
+* [Paginated Reports in Power BI Service](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-paginated-report)
+* [Native Email Subscription for Paginated Report in Power BI Service](https://docs.microsoft.com/en-us/power-bi/consumer/paginated-reports-subscriptions)
