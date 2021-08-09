@@ -7,7 +7,7 @@
 | ["in a day" Workshops](https://github.com/lipinght/pbideployment/blob/main/Trainings/Trainings.md#in-a-day-workshops) | Instructor-Led | Experience how Microsoft Power BI can meet your business challenges quickly and effectively by attending a virtual, one-day training workshop.|
 | [Microsoft Learn Learning Paths](https://github.com/lipinght/pbideployment/blob/main/Trainings/Trainings.md#learning-paths) | Self-Paced | A varity of learning paths available on Microsoft learning to get familiar with Power BI.|
 | [Power BI Webinars](https://github.com/lipinght/pbideployment/blob/main/Trainings/Trainings.md#power-bi-webinars) | Self-Paced | Register for Microsoft Power BI upcoming live webinars or watch recorded sessions on-demand.|
-| Power BI Whitepapers](https://github.com/lipinght/pbideployment/blob/main/Trainings/Trainings.md#power-bi-whitepapers) | Self-Paced | Official Power BI Whitepapers that offer guidance and best practices.|
+| [Power BI Whitepapers](https://github.com/lipinght/pbideployment/blob/main/Trainings/Trainings.md#power-bi-whitepapers) | Self-Paced | Official Power BI Whitepapers that offer guidance and best practices.|
 | [External Tools](https://github.com/lipinght/pbideployment/blob/main/Trainings/Trainings.md#external-tools) | Self-Paced | These tutorials walk through useful and powerful external tools.|
 | [Certificate](https://github.com/lipinght/pbideployment/blob/main/Trainings/Trainings.md#certificate) | Self-Paced | DA 100 is a Microsoft Power BI certificate|
 | [Useful Resources](https://github.com/lipinght/pbideployment/blob/main/Trainings/Trainings.md#useful-resources) | Self-Paced | Useful resources to keep up with Power BI learnings|
