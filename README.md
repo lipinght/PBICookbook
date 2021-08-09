@@ -11,4 +11,4 @@ This is a repo that summarize main concepts and consolidates useful resources wh
 * [Visualisation - Best Practices](https://github.com/lipinght/pbideployment/blob/main/Visualization/VisBestPractice.md)
 * [Power BI Integration](https://github.com/lipinght/PBICookbook/blob/main/PowerBIIntegration/Integration.md)
 * [Purview for Power BI](https://github.com/lipinght/PBICookbook/tree/main/PurviewforPBI)
-
+* [Power BI Training Resources](https://github.com/lipinght/pbideployment/blob/main/Trainings/Trainings.md)
