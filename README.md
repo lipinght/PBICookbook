@@ -3,6 +3,7 @@
 This is a repo that summarize main concepts and consolidates useful resources when it comes to key areas of Power BI deployment. The Key Areas that are covered in the repo are:  
 # Topics  
 * [Advanced Analytics](https://github.com/lipinght/pbideployment/blob/main/AdvAnalytics/Overview.md)
+* [Embedded](https://github.com/lipinght/pbideployment/blob/main/Embedded/EmbeddedOverview.md)
 * [Dataflows](https://github.com/lipinght/pbideployment/blob/main/DataFlows/dataflows.md)
 * [Deployment Pattern](https://github.com/lipinght/pbideployment/blob/main/DeploymentPatterns/DeploymentPatterns.md)
 * [Deployment Pipeline](https://github.com/lipinght/pbideployment/blob/main/DeploymentPipeline/DeploymentPipeline.md)
