@@ -19,6 +19,7 @@ Sign in to [Azure Portal](https://portal.azure.com), select a subscription, clic
 2. Designate a subnet to Microsoft Power Platform
 
 **Note: you will need to be in a role with Microsoft.Network/virtualNetworks/subnets/join/action permission on the VNet (e.g. Azure [Network Contributor]( https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles#network-contributor) role) to do below step.**
+
 Go to the Vnet where your data source sits, click on “Subnets” on the left navigation pane, click on “+ Subnet”.
 
  ![AddSubnet.png](images/AddSubnet.png)
