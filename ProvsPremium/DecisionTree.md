@@ -18,6 +18,9 @@
 * PPU is ideal for [Small Team Collaboration](https://github.com/lipinght/pbideployment/blob/main/DeploymentPatterns/DeploymentPatterns.md#small-team-collaboration) if that small team need some premium features to collaborate on.
 * For [Large Team Collaboration and Distribution](https://github.com/lipinght/pbideployment/blob/main/DeploymentPatterns/DeploymentPatterns.md#large-team-collaboration-and-distribution), be mindful of management overhead on license management on ppu license. In case of large teams, it is often better to go for premium capacity due to management overhead.
 
+* [Power BI Premium Per User on Microsoft Doc](https://docs.microsoft.com/en-us/power-bi/admin/service-premium-per-user-faq)
+
 ## Premium                                                                                                                                      
 
-*[Power BI Premium Deployment White Paper](https://docs.microsoft.com/en-us/power-bi/guidance/whitepaper-powerbi-premium-deployment)
+* [Power BI Premium Deployment White Paper](https://docs.microsoft.com/en-us/power-bi/guidance/whitepaper-powerbi-premium-deployment)
+
