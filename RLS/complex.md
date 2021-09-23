@@ -3,6 +3,7 @@
 ## Problem Statement                                                                                                                            
 
 This solution is to address complex security scenario such as the outlined table
+
 ![ComplexProblem.png](images/ComplexProblem.PNG) 
 
 Tony Stark needs to have access to data that has Line of business = “Mountain Bikes” and Region = “EMEA” and that has
@@ -33,9 +34,11 @@ Other example users can see the data limited to none/1/2 or more dimension filte
 ## Table Setup
 
 * Set up an **userinput** table in the back-end to store security requirement (to be update as needed) and to be used as a source when populating the other metadata tables required for the dynamic security. The userinput table does not need to be included in the Power BI model. userInput Table( for a single profile, between "DimensionName"and "DimensionNameNOT", one and only one column can be populated, and use comma (or other separators) to list all conditions for an attribute in a single cell. Below is  an example.
+
 ![ComplexUserInput.png](images/ComplexUserInput.PNG) 
 
 * Set up an **input** table in the back-end (created based on the logic from the userinput table). The input table does not need to be included in the Power BI model.Below is  an example.
+
 ![ComplexInput.png](images/ComplexInput.PNG) 
 
 * Set up the below security tables in back-end (created based on the logic from the input table, Store Procedure Example below) and include them in the Power Bi dataset as hidden tables
@@ -46,12 +49,15 @@ Other example users can see the data limited to none/1/2 or more dimension filte
 | User Security |
 
 * **Security Bridge** Table (“tablename” is not used, unless you are using the same bridge table to filter different tables).Below is  an example.
+
 ![ComplexSecurityBridge.png](images/ComplexSecurityBridge.PNG) 
 
 * **User Security Table** example
+
 ![ComplexUserSecurity.png](images/ComplexUserSecurity.PNG) 
 
 * **Security Profile Table** example
+
 ![ComplexSecurityPro.png](images/ComplexSecurityPro.PNG) 
 
 ## Model Setup                                                                                                                                  
@@ -68,9 +74,11 @@ Other example users can see the data limited to none/1/2 or more dimension filte
 
 ## RLS Setup                                                                                                                                    
 * For users that need access to data filtered by 2 or more dimensions
+
 ![ComplexUserRLS.png](images/ComplexUserRLS.PNG) 
 
 * For users that need access to data filtered by 1 dimension (region as example)
+
 ![ComplexUserRLS2.png](images/ComplexUserRLS2.PNG) 
 
 * Set up AAD groups for each role you will need and in Power BI Service Assigned each role to corresponding AAD group
@@ -81,6 +89,7 @@ Other example users can see the data limited to none/1/2 or more dimension filte
 * Azure Databricks (codefirst)
 
 **Sample Stored Procedures**
+
  ![SP1.png](images/SP1.PNG) 
  
  ![SP2.png](images/SP2.PNG)

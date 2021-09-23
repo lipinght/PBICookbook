@@ -96,12 +96,19 @@ GRANT SELECT ON [SchemaName].[TableName] TO [SecurityGroupName];
 
 4. Load your data source tables into Power BI desktop using direct query, note the report authors will be subjective to RLS rules in underlying data source.
 5. Make your report and publish pbix to Power BI Service, click the three dots on the right hand side of dataset and select “setting”
+
 ![DatasetOption.png](images/DatasetOption.PNG) 
+
 ![DatasetSetting.png](images/DatasetSetting.PNG)
+
 6. In data source credentials, click "Edit Credentials"
+
 ![EditCred.png](images/EditCred.PNG)
+
 7. Choose "Oauth2" as Authentication method, and tick "Report viewers can only access this data source with their own Power BI identities using DirectQuery.", click "Sign in".
+
 ![Auth.png](images/Auth.PNG)
+
 8. Add the user or the security group to the workspace by assigning them to one of the roles (viewer contributor, member or admin).
 
 ## If your data source is in a Vnet
