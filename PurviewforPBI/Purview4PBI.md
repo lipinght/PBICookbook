@@ -3,7 +3,7 @@ Purview is a data governance service from Microsoft. Using Purview with Power BI
 
 # Set Up and Scanning
 **Note**: Unlike other data sources, users can only use **managed identity** to connect to Power BI. In order to set up Power BI, user will need to have Power BI **Admin** rights.
-Please see Register and scan a Power BI tenant - Azure Purview | Microsoft Docs for how to register and scan a Power BI Tenant. 
+Please see the [Microsoft Doc](https://docs.microsoft.com/en-us/azure/purview/register-scan-power-bi-tenant) for how to register and scan a Power BI Tenant. 
 
 # Assets
 Purview scans the entire Power BI tenant (scanning only parts of the tenant is not possible currently),  below artefacts are scanned. 
