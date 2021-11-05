@@ -75,11 +75,11 @@ Other example users can see the data limited to none/1/2 or more dimension filte
 ## RLS Setup                                                                                                                                    
 * For users that need access to data filtered by 2 or more dimensions
 
-![ComplexUserRLS.png](images/ComplexUserRLS.PNG) 
+![ComplexUserRLS.png](images/ComplexIUserRLS.PNG) 
 
 * For users that need access to data filtered by 1 dimension (region as example)
 
-![ComplexUserRLS2.png](images/ComplexUserRLS2.PNG) 
+![ComplexUserRLS2.png](images/ComplexIUserRLS2.PNG) 
 
 * Set up AAD groups for each role you will need and in Power BI Service Assigned each role to corresponding AAD group
 
