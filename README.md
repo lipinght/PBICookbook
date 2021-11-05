@@ -11,6 +11,7 @@ This is a repo that summarize main concepts and consolidates useful resources wh
 * [Row-Level Security](https://github.com/lipinght/PBICookbook/blob/main/RLS/RLSOverview.md)
 * [Vnet Gateway](https://github.com/lipinght/pbideployment/blob/main/VnetGateway/VnetGatewayOverview.md)
 * [Tenant Settings](https://github.com/lipinght/pbideployment/blob/main/tenant/TenantSettings.md)
+* [Service Principal](https://github.com/lipinght/pbideployment/blob/main/ServicePrincipal/ServicePrincipal.md)
 * [Visualisation - Best Practices](https://github.com/lipinght/pbideployment/blob/main/Visualization/VisBestPractice.md)
 * [Pro vs Premium Decision Tree](https://github.com/lipinght/pbideployment/blob/main/ProvsPremium/DecisionTree.md)
 * [Power BI Integration](https://github.com/lipinght/PBICookbook/blob/main/PowerBIIntegration/Integration.md)
