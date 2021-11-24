@@ -14,8 +14,11 @@ This lab walks through how to use Auto ML feature within Power BI Service
 
 ![automl2.png](images/automl2.png)
 
-4. Click on **Text/CSV**, for **File path or URL** input below url, click **Next**, click **Transform Data** in the next page
+4. Click on **Text/CSV**, in the next step, for **File path or URL** input below url, click **Next**, click **Transform Data** in the next page
+
+```
 https://raw.githubusercontent.com/lipinght/PBICookbook/main/AdvAnalytics/OnlineShoppersIntention.csv
+```
 
 5. Scoll to the right, and click the "ABC" on column **Revenue** and change it to **True/False**, click **Add new Step** when prompted and click **Save & Close**
 
