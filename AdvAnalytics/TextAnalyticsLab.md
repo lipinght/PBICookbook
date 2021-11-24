@@ -6,7 +6,7 @@ This lab walks through the Power BI Integration with Cognitive Services for Sent
 # Preparation 
 1. Download the [csv file](https://raw.githubusercontent.com/lipinght/PBICookbook/main/AdvAnalytics/MarvelReviews.csv) 
 
-2. Open Power BI Desktop, click **Get Data** on home tab, choose **Text/CSV** and choose the csv file downloaded in step 1, and click **open**. 
+2. Open Power BI Desktop, click **Get Data** on home tab, choose **Text/CSV** and choose the csv file downloaded in step 1, and click **open**, once the preview of the data loads, click **load**.
 
 ![getdata.png](images/getdata.png)
 
