@@ -20,7 +20,7 @@ This lab walks through how to use Auto ML feature within Power BI Service
 https://raw.githubusercontent.com/lipinght/PBICookbook/main/AdvAnalytics/OnlineShoppersIntention.csv
 ```
 
-5. Scoll to the right, and click the "ABC" on column **Revenue** and change it to **True/False**, click **Add new Step** when prompted and click **Save & Close**
+5. Scoll to the right, and click the "ABC" on column **Revenue** and change it to **True/False** (click **Add new Step** if prompted) and click **Save & Close**
 
 ![automl3.png](images/automl3.png)
 
