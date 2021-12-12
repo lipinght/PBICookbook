@@ -3,7 +3,7 @@
 Service Principle is an authentication method to gain access to Power BI Service Content and APIs. It is a great way to authenticate against Power BI when doing programatic development of Power BI content. A few examples of its usage are listed below:
 
 * [Embed Power BI content in Applications](https://github.com/lipinght/pbideployment/blob/main/Embedded/EmbeddedOverview.md)
-* Automation of data refresh using XMLA endpoint
+* [Automation of data refresh using XMLA endpoint](https://github.com/mariuspc/pbi-xmla-refresh)
 * [Using Purview to scan Power BI tenant (Managed Identity)](https://github.com/lipinght/PBICookbook/tree/main/PurviewforPBI)
 
 This tutorial walks through how to set Service Principle up in order to gain access to Power BI service.
@@ -86,6 +86,6 @@ Step 5: Enabled XMLA Read-Write (Only needed for XMLA use case)
 ## Next Steps
 * For embedded, use the client ID and secrect that you created in step 1 in your application code to authenticate to access Power BI API, example in [Embedded](https://github.com/lipinght/pbideployment/blob/main/Embedded/EmbeddedOverview.md)
 
-* For XMLA endpoint, use the client ID and secrect that you created in step 1 in automation to authenticate against Power BI Service.
+* For [XMLA endpoint](https://github.com/mariuspc/pbi-xmla-refresh), use the client ID and secrect that you created in step 1 in automation to authenticate against Power BI Service.
 
 * For Purview, please see [here](https://docs.microsoft.com/en-us/azure/purview/register-scan-power-bi-tenant#steps-to-register-in-the-same-tenant) for instruction on how to register Power BI as a data source in Purview and [here](https://docs.microsoft.com/en-us/azure/purview/register-scan-power-bi-tenant#scan) for how to scan Power BI in Purview. 

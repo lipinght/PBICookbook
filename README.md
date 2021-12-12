@@ -17,3 +17,4 @@ This is a repo that summarize main concepts and consolidates useful resources wh
 * [Power BI Integration](https://github.com/lipinght/PBICookbook/blob/main/PowerBIIntegration/Integration.md)
 * [Purview for Power BI](https://github.com/lipinght/PBICookbook/tree/main/PurviewforPBI)
 * [Power BI Training Resources](https://github.com/lipinght/pbideployment/blob/main/Trainings/Trainings.md)
+* [Automate table & partition level refresh via Azure Data Factory](https://github.com/mariuspc/pbi-xmla-refresh)

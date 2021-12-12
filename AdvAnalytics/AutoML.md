@@ -25,7 +25,7 @@ https://raw.githubusercontent.com/lipinght/PBICookbook/main/AdvAnalytics/OnlineS
 
 click **Transform Data** in the next page.
 
-5. Scoll to the right, and click the "ABC" on column **Revenue** and change it to **True/False**, click **Add new Step** when prompted and click **Save & Close**
+5. Scoll to the right, and click the "ABC" on column **Revenue** and change it to **True/False** (click **Add new Step** if prompted) and click **Save & Close**
 
 ![automl3.png](images/automl3.png)
 
@@ -49,6 +49,8 @@ click **Transform Data** in the next page.
 ![automl9.png](images/automl9.png)
 
 11. Type in Model name, in this case "ShopperIntentionModel", Choose a proper amount of time for model to train, taking into account the lab durations, **we will do "21 minutes"**, in reality, you want to give it sufficient time to go through all the algorithms and hyperprarameters and click **Save and Train**
+
+**Note:** If you are doing other labs in the same setting, you can noe go and do other labs while waiting for the training to finish.
 
 ![automl10.png](images/automl10.png)
 
