@@ -16,5 +16,13 @@
 
 
 
+# Capacity Management
+
+| Resource | Description |
+|:-----------------------:|:-----------:|
+| [One Click Deployment For Embedded Capacity Control](https://github.com/lipinght/PBI-Embedded-Control-1-Click-Deployment) | This 1-click deployment allows the user to deploy an automation account with runbooks and schedules that can help control the power bi embedded capacity. |
+| [Powershell for Pausing](https://github.com/lipinght/PBICookbook/blob/main/Embedded/pause.ps1) | Powershell script for pausing embedded capacity. |
+| [Powershell for Resuming](https://github.com/lipinght/PBICookbook/blob/main/Embedded/resume.ps1) | Powershell script for resuming embedded capacity. |
+
 
 
