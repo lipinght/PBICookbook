@@ -11,14 +11,14 @@ if ($CapacityTest)
 {
     $CapacityState = Get-AzPowerBIEmbeddedCapacity -Name $EmbeddedName
 
-    if($CapacityState.State -eq "Paused")
+    if($CapacityState.State -eq "Succeeded")
     {
-        Write-Host "Capacity $EmbeddedName already paused."
+        Write-Host "Capacity $EmbeddedName already resumed."
     }
     else
     {
-        Suspend-AzPowerBIEmbeddedCapacity -Name $EmbeddedName -PassThru
-        Write-Host "Capacity $EmbeddedName paused."
+        Resume-AzPowerBIEmbeddedCapacity -Name $EmbeddedName -PassThru
+        Write-Host "Capacity $EmbeddedName resumed."
     }
 }
 else
