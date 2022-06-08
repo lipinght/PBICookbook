@@ -1,6 +1,6 @@
 # Using Service Principal to Authenticate Against Power BI Service
 
-Service Principle is an authentication method to gain access to Power BI Service Content and APIs. It is a great way to authenticate against Power BI when doing programatic development of Power BI content. A few examples of its usage are listed below:
+Service Principal is an authentication method to gain access to Power BI Service Content and APIs. It is a great way to authenticate against Power BI when doing programatic development of Power BI content. A few examples of its usage are listed below:
 
 * [Embed Power BI content in Applications](https://github.com/lipinght/pbideployment/blob/main/Embedded/EmbeddedOverview.md)
 * [Automation of data refresh using XMLA endpoint](https://github.com/mariuspc/pbi-xmla-refresh)
@@ -51,7 +51,7 @@ Step 2: Create Security Group
 
 ![groupcreation.png](images/creategroup.png)
 
-Step 3: Enable Service Principle in Power BI Tenant Setting
+Step 3: Enable Service Principal in Power BI Tenant Setting
 
 1. Go to [admin portal](https://app.powerbi.com/admin-portal/tenantSettings) in Power BI ( you have to have Power BI Admin rights in order to do this step). 
 
