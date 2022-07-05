@@ -2,7 +2,7 @@
 
 This is a repo that summarize main concepts and consolidates useful resources when it comes to key areas of Power BI deployment. The Key Areas that are covered in the repo are:  
 # Topics  
-* [Advanced Analytics](Overview.md)
+* [Advanced Analytics](AdvAnalytics/Overview.md)
 * [Embedded](Embedded/EmbeddedOverview.md)
 * [Dataflows](DataFlows/dataflows.md)
 * [Deployment Pattern](DeploymentPatterns/DeploymentPatterns.md)
