@@ -5,7 +5,7 @@
 | Embedded for Customers | [Tutorial: Embed Power BI content using a sample embed for your customers application](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers?tabs=net-core) | This is a tutorial contains code samples in various languages. |
 | Embedded for Customers | [Row-level security with Power BI Embedded](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embedded-row-level-security) | This is Microsoft documentation outlineing how RLS works with AppsOwnsData/Embedded for Customers. This documentation contains a .Net code snippets for RLS. |
 | Embedded for Customers | [Embed Token - Generate Token](https://docs.microsoft.com/en-us/rest/api/power-bi/embed-token/embed-token-generate-token) | This is Power BI Rest API documentation explaining how to generate an embed token |
-| Embedded for Customers | [Service Principle Set up for Embedded](https://github.com/lipinght/pbideployment/blob/main/ServicePrincipal/ServicePrincipal.md) | This is a tutorial walking through how to set up Service Principle for Power BI for embedded. |
+| Embedded for Customers | [Service Principal Set up for Embedded](../ServicePrincipal/ServicePrincipal.md) | This is a tutorial walking through how to set up Service Principal for Power BI for embedded. |
 | Embedded for Customers | [Monitor Power BI Embedded](https://docs.microsoft.com/en-us/power-bi/developer/embedded/monitor-power-bi-embedded) | This is Microsoft Documentation explaining how to use Azure monitor to collect metrics and logs. |
 | Embedded for Customers | [Embedding Q&A](https://docs.microsoft.com/en-us/power-bi/developer/embedded/qanda) | This is Microsoft Documentation explaining how to embed Q&A in your application and contains a JavaScript sample. |
 | Embedded for Customers | [Troubleshoot your embedded application](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embedded-troubleshoot) | This is Microsoft Documentation discusses some common issues you may get when embedding content from Power BI. |
@@ -21,8 +21,8 @@
 | Resource | Description |
 |:-----------------------:|:-----------:|
 | [One Click Deployment For Embedded Capacity Control](https://github.com/lipinght/PBI-Embedded-Control-1-Click-Deployment) | This 1-click deployment allows the user to deploy an automation account with runbooks and schedules that can help control the power bi embedded capacity. |
-| [Powershell for Pausing](https://github.com/lipinght/PBICookbook/blob/main/Embedded/pause.ps1) | Powershell script for pausing embedded capacity. |
-| [Powershell for Resuming](https://github.com/lipinght/PBICookbook/blob/main/Embedded/resume.ps1) | Powershell script for resuming embedded capacity. |
+| [Powershell for Pausing](../Embedded/pause.ps1) | Powershell script for pausing embedded capacity. |
+| [Powershell for Resuming](../Embedded/resume.ps1) | Powershell script for resuming embedded capacity. |
 
 
 

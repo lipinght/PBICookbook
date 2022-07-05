@@ -1,7 +1,7 @@
 # Image Tagging Lab
 This lab walks through the Power BI Integration with Cognitive Services for Image Tagging
 
-**Note:** In order to do this lab, you will need access to premium or premium per user capacity. Do the [prerequisite](https://github.com/lipinght/pbideployment/blob/main/AdvAnalytics/Prerequisite.md#provision-workspace) before starting the lab
+**Note:** In order to do this lab, you will need access to premium or premium per user capacity. Do the [prerequisite](Prerequisite.md#provision-workspace) before starting the lab
 
 # Image Tagging
 1. Click the ... on the visualization pane, and click **get more visuals**

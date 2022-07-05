@@ -1,7 +1,7 @@
 # Text Analytics Lab
 This lab walks through the Power BI Integration with Cognitive Services for Sentiment Scoring and Key Phrase Extraction
 
-**Note:** In order to do this lab, you will need access to premium or premium per user capacity. Do the [prerequisite](https://github.com/lipinght/pbideployment/blob/main/AdvAnalytics/Prerequisite.md#provision-workspace) before starting the lab
+**Note:** In order to do this lab, you will need access to premium or premium per user capacity. Do the [prerequisite](Prerequisite.md#provision-workspace) before starting the lab
 
 # Preparation 
 1. Download the [csv file](https://raw.githubusercontent.com/lipinght/PBICookbook/main/AdvAnalytics/MarvelReviews.csv) (Open in a new window, right click, click **save as**)

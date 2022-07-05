@@ -2,15 +2,15 @@ This labs walks through different AI Visuals in Power BI
 
 | Feature | Overview | 
 |:------:|:---------:|
-|[Key influencers](https://github.com/lipinght/pbideployment/blob/main/AdvAnalytics/AIVisualLab.md#key-influencers)|The key influencers visual helps you understand the factors that drive a metric or attribute you're interested in|
-|[Q & A](https://github.com/lipinght/pbideployment/blob/main/AdvAnalytics/AIVisualLab.md#q&a)|The Q&A feature allows your end users to ask questions about your data in power bi using NLP|
-|[Decomposition tree](https://github.com/lipinght/pbideployment/blob/main/AdvAnalytics/AIVisualLab.md#decomposition-tree)|The decomposition tree visual in Power BI lets you visualize data across multiple dimensions|
-|[Smart narrative](https://github.com/lipinght/pbideployment/blob/main/AdvAnalytics/AIVisualLab.md#smart-narrative)|The smart narrative visualization helps you quickly summarize visuals and reports|
-|[Anomaly detection](https://github.com/lipinght/pbideployment/blob/main/AdvAnalytics/AIVisualLab.md#anomaly-detection)|Anomaly detection helps you enhance your line charts by automatically detecting anomalies in your time series data|
+|[Key influencers](AIVisualLab.md#key-influencers)|The key influencers visual helps you understand the factors that drive a metric or attribute you're interested in|
+|[Q & A](AIVisualLab.md#q&a)|The Q&A feature allows your end users to ask questions about your data in power bi using NLP|
+|[Decomposition tree](AIVisualLab.md#decomposition-tree)|The decomposition tree visual in Power BI lets you visualize data across multiple dimensions|
+|[Smart narrative](AIVisualLab.md#smart-narrative)|The smart narrative visualization helps you quickly summarize visuals and reports|
+|[Anomaly detection](AIVisualLab.md#anomaly-detection)|Anomaly detection helps you enhance your line charts by automatically detecting anomalies in your time series data|
 
 # Preparation
 
-1. Download the [csv file](https://raw.githubusercontent.com/lipinght/PBICookbook/main/AdvAnalytics/heroes_information.csv) (Open in a new window, right click, click **save as**)
+1. Download the [csv file](heroes_information.csv) (Open in a new window, right click, click **save as**)
 
 2. Open Power BI Desktop, click **Get Data** on home tab, choose **Text/CSV** and choose the csv file downloaded in step 1, and click **open**, click **load**.
 
@@ -19,7 +19,7 @@ This labs walks through different AI Visuals in Power BI
 
 # Key Influencers
 
-1. Do the [Preparation Step](https://github.com/lipinght/pbideployment/blob/main/AdvAnalytics/AIVisualLab.md#preparation) if it has not been done already.
+1. Do the [Preparation Step](AIVisualLab.md#preparation) if it has not been done already.
 
 2. In the Visualizations pane, select a key influencer chart.
 
@@ -54,7 +54,7 @@ click on **top segments** tab and the bubbles to explore the UI for combination 
 
 # Q&A
 
-1. Do the [Preparation Step](https://github.com/lipinght/pbideployment/blob/main/AdvAnalytics/AIVisualLab.md#preparation) if it has not been done already.
+1. Do the [Preparation Step](AIVisualLab.md#preparation) if it has not been done already.
 
 2. In the Visualizations pane, select a Q&A chart.
 
@@ -84,7 +84,7 @@ click on **top segments** tab and the bubbles to explore the UI for combination 
 
 ![qa10.png](images/qa10.png)
 
-9. Choose the workspace you created in the [prerequisite](https://github.com/lipinght/pbideployment/blob/main/AdvAnalytics/Prerequisite.md#provision-workspace), click **select**. You might be prompted to give your pbix a name and save it before publish you have not saved your pbix before.
+9. Choose the workspace you created in the [prerequisite](Prerequisite.md#provision-workspace), click **select**. You might be prompted to give your pbix a name and save it before publish you have not saved your pbix before.
 
 10. After the report is published, you can go to the report by clicking **Open xxxx.pbix** in Power BI, or go to power bi workspace, and navigate to the report that you published.
 
@@ -123,7 +123,7 @@ click on **top segments** tab and the bubbles to explore the UI for combination 
 
 # Decomposition Tree
 
-1. Do the [Preparation Step](https://github.com/lipinght/pbideployment/blob/main/AdvAnalytics/AIVisualLab.md#preparation) if it has not been done already.
+1. Do the [Preparation Step](AIVisualLab.md#preparation) if it has not been done already.
 
 2. In the Visualizations pane, select a decomposition tree chart.
 
@@ -156,7 +156,7 @@ click on **top segments** tab and the bubbles to explore the UI for combination 
 
 # Smart Narrative
 
-1. Do the [Preparation Step](https://github.com/lipinght/pbideployment/blob/main/AdvAnalytics/AIVisualLab.md#preparation) if it has not been done already.
+1. Do the [Preparation Step](AIVisualLab.md#preparation) if it has not been done already.
 
 2. In the Visualizations pane, select a stacked bar chart.
 
@@ -217,7 +217,7 @@ click on **top segments** tab and the bubbles to explore the UI for combination 
 
 ![qa10.png](images/qa10.png)
 
-5. Choose the workspace you created in the [prerequisite](https://github.com/lipinght/pbideployment/blob/main/AdvAnalytics/Prerequisite.md#provision-workspace), click **select**. You might be prompted to give your pbix a name and save it before publish you have not saved your pbix before.
+5. Choose the workspace you created in the [prerequisite](Prerequisite.md#provision-workspace), click **select**. You might be prompted to give your pbix a name and save it before publish you have not saved your pbix before.
 
 6. After the report is published, you can go to the report by clicking **Open xxxx.pbix** in Power BI, or go to power bi workspace, and navigate to the report that you published.
 

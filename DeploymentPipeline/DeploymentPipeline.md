@@ -7,8 +7,8 @@
 | [Deployment Pipeline Troubleshooting](https://docs.microsoft.com/en-us/power-bi/create-reports/deployment-pipelines-troubleshooting) | This is microsoft documentation that outlines FAQs for troubleshooting deployment pipeline | 
 | [Understanding Deployment Process](https://docs.microsoft.com/en-us/power-bi/create-reports/deployment-pipelines-process) | This is microsoft documentation that details the deployment process |
 | [Automate your deployment pipeline using APIs and Azure DevOps](https://docs.microsoft.com/en-us/power-bi/create-reports/deployment-pipelines-automation) | Microsoft documentation outlineing how to automate deployment pipelines using APIs and Azure DevOps |
-| [Incremental Refresh in Deployment Pipelines](https://github.com/lipinght/pbideployment/blob/main/DeploymentPipeline/DeploymentPipeline.md#incremental-refresh-in-deplooyment-pipelines) | This section outlines the considerations for using dataset with incremental refresh in Deployment Pipelines |
-| [Considerations](https://github.com/lipinght/pbideployment/blob/main/DeploymentPipeline/DeploymentPipeline.md#Considerations) | This section outlines some of the considerations to be taken into account when using deployment pipeline |
+| [Incremental Refresh in Deployment Pipelines](#incremental-refresh-in-deployment-pipelines) | This section outlines the considerations for using dataset with incremental refresh in Deployment Pipelines |
+| [Considerations](#considerations) | This section outlines some of the considerations to be taken into account when using deployment pipeline |
 
 
 # Incremental Refresh in Deployment Pipelines

@@ -3,14 +3,14 @@
 
 | Type | Category | Level |Description |
 |:------------------------:|:-----------------------:|:-----------:|:-----------:|
-| [Get Started with Power BI Workshop](https://github.com/lipinght/pbideployment/blob/main/Trainings/Trainings.md#get-started-with-power-bi) |Instructor-Led  | Beginner  |This training covers an overview and demo of Power BI to show how you can get maximum value out of your data in a way that was previously not possible. | 
-| ["in a day" Workshops](https://github.com/lipinght/pbideployment/blob/main/Trainings/Trainings.md#in-a-day-workshops) | Instructor-Led | Intermediate  | Experience how Microsoft Power BI can meet your business challenges quickly and effectively by attending a virtual, one-day training workshop.|
-| [Microsoft Learn Learning Paths](https://github.com/lipinght/pbideployment/blob/main/Trainings/Trainings.md#learning-paths) | Self-Paced | Beginner - Intermediate  | A varity of learning paths available on Microsoft learning to get familiar with Power BI.|
-| [Power BI Webinars](https://github.com/lipinght/pbideployment/blob/main/Trainings/Trainings.md#power-bi-webinars) | Self-Paced | Intermediate - Advanced | Register for Microsoft Power BI upcoming live webinars or watch recorded sessions on-demand.|
-| [Power BI Whitepapers](https://github.com/lipinght/pbideployment/blob/main/Trainings/Trainings.md#power-bi-whitepapers) | Self-Paced | Advanced | Official Power BI Whitepapers that offer guidance and best practices.|
-| [External Tools](https://github.com/lipinght/pbideployment/blob/main/Trainings/Trainings.md#external-tools) | Self-Paced | Advanced | These tutorials walk through useful and powerful external tools.|
-| [Certificate](https://github.com/lipinght/pbideployment/blob/main/Trainings/Trainings.md#certificate) | Self-Paced | Intermediate | DA 100 is a Microsoft Power BI certificate|
-| [Useful Resources](https://github.com/lipinght/pbideployment/blob/main/Trainings/Trainings.md#useful-resources) | Self-Paced | Intermediate | Useful resources to keep up with Power BI learnings|
+| [Get Started with Power BI Workshop](#get-started-with-power-bi) |Instructor-Led  | Beginner  |This training covers an overview and demo of Power BI to show how you can get maximum value out of your data in a way that was previously not possible. | 
+| ["in a day" Workshops](#in-a-day-workshops) | Instructor-Led | Intermediate  | Experience how Microsoft Power BI can meet your business challenges quickly and effectively by attending a virtual, one-day training workshop.|
+| [Microsoft Learn Learning Paths](#learning-paths) | Self-Paced | Beginner - Intermediate  | A varity of learning paths available on Microsoft learning to get familiar with Power BI.|
+| [Power BI Webinars](#power-bi-webinars) | Self-Paced | Intermediate - Advanced | Register for Microsoft Power BI upcoming live webinars or watch recorded sessions on-demand.|
+| [Power BI Whitepapers](#power-bi-whitepapers) | Self-Paced | Advanced | Official Power BI Whitepapers that offer guidance and best practices.|
+| [External Tools](#external-tools) | Self-Paced | Advanced | These tutorials walk through useful and powerful external tools.|
+| [Certificate](#certificate) | Self-Paced | Intermediate | DA 100 is a Microsoft Power BI certificate|
+| [Useful Resources](#useful-resources) | Self-Paced | Intermediate | Useful resources to keep up with Power BI learnings|
 
 # Get Started with Power BI
 

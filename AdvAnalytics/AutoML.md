@@ -1,10 +1,10 @@
 # Auto ML Lab
 This lab walks through how to use Auto ML feature within Power BI Service
 
-**Note:** In order to do this lab, you will need access to premium or premium per user capacity. Do the [prerequisite](https://github.com/lipinght/pbideployment/blob/main/AdvAnalytics/Prerequisite.md#provision-workspace) before starting the lab
+**Note:** In order to do this lab, you will need access to premium or premium per user capacity. Do the [prerequisite](Prerequisite.md#provision-workspace) before starting the lab
 
 
-1. Go to Powerbi.com and nagivate to the workspace you created in the [prerequisite](https://github.com/lipinght/pbideployment/blob/main/AdvAnalytics/Prerequisite.md#provision-workspace) or another workspace that is in a premium or premium per user capacity
+1. Go to Powerbi.com and nagivate to the workspace you created in the [prerequisite](Prerequisite.md#provision-workspace) or another workspace that is in a premium or premium per user capacity
 
 2. Click on **New** and select **Dataflow**
 
@@ -58,7 +58,7 @@ The training will kick off, in workspace view, you will see the dataflow refresh
 
 ![automl6.png](images/automl6.png)
 
-**Note: wait for 1 minute, if a warning sign appears next to the refresh timestamp, click the refresh button below, if no warning sign appears and refresh is still going, please go to do [other Labs](https://github.com/lipinght/pbideployment/blob/main/AdvAnalytics/Labs.md) while the training is running and come back to step 12 later once training is finished.**
+**Note: wait for 1 minute, if a warning sign appears next to the refresh timestamp, click the refresh button below, if no warning sign appears and refresh is still going, please go to do [other Labs](Labs.md) while the training is running and come back to step 12 later once training is finished.**
 
 ![autom23.png](images/automl23.png)
 

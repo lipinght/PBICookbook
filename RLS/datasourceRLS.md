@@ -113,7 +113,7 @@ GRANT SELECT ON [SchemaName].[TableName] TO [SecurityGroupName];
 
 ## If your data source is in a Vnet
 
-If your underlying data source is in a Vnet, and your data source is one of the data sources listed [here](https://docs.microsoft.com/en-us/data-integration/vnet/use-data-gateways-sources-power-bi#supported-azure-data-services), you can use Vnet Gateway, which supports SSO. Therefore, you will be able to utilise RLS in underlying data source. For how to set up Vnet Gateway, please see [Vnet Gateway](https://github.com/lipinght/pbideployment/blob/main/VnetGateway/VnetGatewayOverview.md).Otherwise, you will need a traditional [On-Premises Gateway](https://github.com/lipinght/PBICookbook/blob/main/Gateway/GatewayOverview.md). Currently on-prem gateway does not have SSO support, which means you will not be able to use the RLS set up in underlying data source.
+If your underlying data source is in a Vnet, and your data source is one of the data sources listed [here](https://docs.microsoft.com/en-us/data-integration/vnet/use-data-gateways-sources-power-bi#supported-azure-data-services), you can use Vnet Gateway, which supports SSO. Therefore, you will be able to utilise RLS in underlying data source. For how to set up Vnet Gateway, please see [Vnet Gateway](../VnetGateway/VnetGatewayOverview.md).Otherwise, you will need a traditional [On-Premises Gateway](../Gateway/GatewayOverview.md). Currently on-prem gateway does not have SSO support, which means you will not be able to use the RLS set up in underlying data source.
 
 # Useful Links
 

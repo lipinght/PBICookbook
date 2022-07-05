@@ -2,9 +2,9 @@
 
 | Index | Description |
 |:------------------------:|:-----------------------:|
-| [Tutorial](https://github.com/lipinght/pbideployment/blob/main/VnetGateway/VnetGatewayOverview.md#tutorial) |This is a tutorial on how to create and use Vnet Gateway in Power BI |
-| [Considerations](https://github.com/lipinght/pbideployment/blob/main/VnetGateway/VnetGatewayOverview.md#considerations) |This is a section outlining certain consideration when adopting Vnet Gateway |
-| [Useful Resources](https://github.com/lipinght/pbideployment/blob/main/VnetGateway/VnetGatewayOverview.md#useful-resources) |This is a section listing some useful documentations |
+| [Tutorial](#tutorial) |This is a tutorial on how to create and use Vnet Gateway in Power BI |
+| [Considerations](#considerations) |This is a section outlining certain consideration when adopting Vnet Gateway |
+| [Useful Resources](#useful-resources) |This is a section listing some useful documentations |
 
 
 # Tutorial

@@ -2,7 +2,7 @@
 
 This lab walks through Power BI Integration with Azure Machine Learning
 
-**Note:** In order to do this lab, you will need to do the [prerequisite](https://github.com/lipinght/pbideployment/blob/main/AdvAnalytics/Prerequisite.md#aml-intergration-lab-prerequisite) first.
+**Note:** In order to do this lab, you will need to do the [prerequisite](Prerequisite.md#aml-intergration-lab-prerequisite) first.
 
 # Clone and run a notebook
 
@@ -18,7 +18,7 @@ git clone https://github.com/lipinght/PBICookbook
 
 3. When the command has completed, in the files tab in jupyter, click ↻ to refresh the view and verify that a new /users/your-user-name/PBICookbook folder has been created, browse to **/users/your-user-name/PBICookbook/AdvAnalytics**, Open **DiabetesRealTimeInference.ipynb**, run each code cell in turn.
 
-**Note:** The last cell will do the deployment, the deployment will take 5-7 minutes. While waiting for deployment to complete, you can run [other Labs](https://github.com/lipinght/pbideployment/blob/main/AdvAnalytics/Labs.md). Once completed, the output will read **Succeeded
+**Note:** The last cell will do the deployment, the deployment will take 5-7 minutes. While waiting for deployment to complete, you can run [other Labs](Labs.md). Once completed, the output will read **Succeeded
 ACI service creation operation finished, operation "Succeeded"**
 
 # Consume Model in Power BI
