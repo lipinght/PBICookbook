@@ -58,7 +58,7 @@ GRANT SELECT ON [SchemaName].[TableName] TO [UserEmailAddress];
 | Canada | TestSG |
 
 ```
-CREATE GROUP [SecurityGroupName] FROM EXTERNAL PROVIDER;
+CREATE USER [SecurityGroupName] FROM EXTERNAL PROVIDER;
 
 
 SELECT * FROM SYS.DATABASE_PRINCIPALS
