@@ -61,11 +61,11 @@ For more control over the direct query issued to the backend, you may wish to co
 <b>Figure 4</b>
 
 2. Now create a Direct Query using the Power Query parameter:
-![Dynamic M query params](images/dynamicMqueryParamQuery.PNG)
+![Dynamic M query params](images/DynamicMquery.PNG)
 <b>Figure 5</b>
 
 3. As shown in Figure 6, the direct query table does not need to be joined to the fact table.
-![Dynamic M query model](images/dynamicMQueryModel.PNG)
+![Dynamic M query model](images/DynamicQueryModel.PNG)
 <b>Figure 6</b>
 
 4. Now bind the Power Query parameter to the corresponding field in the fact table:
