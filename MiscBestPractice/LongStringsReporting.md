@@ -58,19 +58,19 @@ For more control over the direct query issued to the backend, you may wish to co
 
 1. First create a Power Query Parameter with the required type.
 ![Power Query param](images/PowerQueryParam.PNG)
-<b>Figure 4</b>
+  <b>Figure 4</b>
 
 2. Now create a Direct Query using the Power Query parameter:
-![Dynamic M query params](images/DynamicMquery.PNG)
-<b>Figure 5</b>
+![Dynamic M query params](images/DynamicMQuery.PNG)
+  <b>Figure 5</b>
 
 3. As shown in Figure 6, the direct query table does not need to be joined to the fact table.
 ![Dynamic M query model](images/DynamicQueryModel.PNG)
-<b>Figure 6</b>
+  <b>Figure 6</b>
 
 4. Now bind the Power Query parameter to the corresponding field in the fact table:
 ![Bind DQ Param](images/BindDQParam.PNG)
-<b>Figure 7</b>
+  <b>Figure 7</b>
 
 Using Power BI Desktop Performance Analyzer, we can verify that the SalesOrderID value is passed to the query as expected. In this instance the WHERE clause filtering happens in the subquery rather than the outer query as was the case with Option 1.
 
