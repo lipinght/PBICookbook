@@ -62,6 +62,8 @@
 
 * [Dax Studio](https://www.youtube.com/watch?v=jpZnCHRauPU)
 
+* [BISM Normalizer](http://bism-normalizer.com)
+
 
 # Certificate
 [Exam DA-100: Analyzing Data with Microsoft Power BI](https://docs.microsoft.com/en-us/learn/certifications/exams/da-100)
