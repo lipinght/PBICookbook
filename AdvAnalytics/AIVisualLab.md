@@ -80,37 +80,37 @@ click on **top segments** tab and the bubbles to explore the UI for combination 
 
 ![qa5.png](images/qa5.png)
 
-8. Close the **Q&A setup** window, click **publish** on the ribbon on home tab.
+8. Close the **Q&A setup** window, click **publish** on the ribbon on home tab.(skip if you dont have power bi service access)
 
 ![qa10.png](images/qa10.png)
 
-9. Choose the workspace you created in the [prerequisite](Prerequisite.md#provision-workspace), click **select**. You might be prompted to give your pbix a name and save it before publish you have not saved your pbix before.
+9. Choose the workspace you created in the [prerequisite](Prerequisite.md#provision-workspace), click **select**. You might be prompted to give your pbix a name and save it before publish you have not saved your pbix before.(skip if you dont have power bi service access)
 
-10. After the report is published, you can go to the report by clicking **Open xxxx.pbix** in Power BI, or go to power bi workspace, and navigate to the report that you published.
+10. After the report is published, you can go to the report by clicking **Open xxxx.pbix** in Power BI, or go to power bi workspace, and navigate to the report that you published.(skip if you dont have power bi service access)
 
 ![qa11.png](images/qa11.png)
 
-11. In the published report, type in **average height by sex**, then type in **average height by universe**
+11. In the published report, type in **average height by sex**, then type in **average height by universe**(skip if you dont have power bi service access)
 
 ![qa12.png](images/qa12.png)
 
 ![qa13.png](images/qa13.png)
 
-12. Click on **universe**, then click on **ask (your username) to add universe**
+12. Click on **universe**, then click on **ask (your username) to add universe**(skip if you dont have power bi service access)
 
 ![qa14.png](images/qa14.png)
 
-13. Go back to Power BI Desktop, click on the gear icon to open Q&A setting, you can review questions that end users have been asking in **review questions** tab. Click on **fix needed** next to the question **average height by universe**
+13. Go back to Power BI Desktop, click on the gear icon to open Q&A setting, you can review questions that end users have been asking in **review questions** tab. Click on **fix needed** next to the question **average height by universe**(skip if you dont have power bi service access)
 
 **Note:** You do not need to be using the original pbix in order to review questions, you can also open a new pbix, click a Q&A visual, go to Q&A setting, and in **review questions**, click on **choose a different dataset** and choose the dataset that you just published.
 
 ![qa6.png](images/qa6.png)
 
-14. The window will go to **Teach Q&A** with the question that needs fixing, alternatively, you can submit a question manually.
+14. The window will go to **Teach Q&A** with the question that needs fixing, alternatively, you can submit a question manually.(skip if you dont have power bi service access)
 
 ![qa7.png](images/qa7.png)
 
-15. Type in **publisher** after **universe refers to** click **save**. Q&A will now understand what universe means in future questions.
+15. Type in **publisher** after **universe refers to** click **save**. Q&A will now understand what universe means in future questions.(skip if you dont have power bi service access)
 
 ![qa8.png](images/qa8.png)
 
@@ -213,20 +213,20 @@ click on **top segments** tab and the bubbles to explore the UI for combination 
 
 ![ad.png](images/ad.png)
 
-4. Click **publish** on the ribbon on home tab.
+4. Click **publish** on the ribbon on home tab.(skip if you dont have power bi service access)
 
 ![qa10.png](images/qa10.png)
 
-5. Choose the workspace you created in the [prerequisite](Prerequisite.md#provision-workspace), click **select**. You might be prompted to give your pbix a name and save it before publish you have not saved your pbix before.
+5. Choose the workspace you created in the [prerequisite](Prerequisite.md#provision-workspace), click **select**. You might be prompted to give your pbix a name and save it before publish you have not saved your pbix before.(skip if you dont have power bi service access)
 
-6. After the report is published, you can go to the report by clicking **Open xxxx.pbix** in Power BI, or go to power bi workspace, and navigate to the report that you published.
+6. After the report is published, you can go to the report by clicking **Open xxxx.pbix** in Power BI, or go to power bi workspace, and navigate to the report that you published.(skip if you dont have power bi service access)
 
 
-7. Click on **get insights**, then click on **Anomalies in Sales**
+7. Click on **get insights**, then click on **Anomalies in Sales**(skip if you dont have power bi service access)
 
 ![ad0.png](images/ad0.png)
 
-8. You can now click through different anomalies and see explanations.
+8. You can now click through different anomalies and see explanations.(skip if you dont have power bi service access)
 
 ![ad01.png](images/ad01.png)
 
