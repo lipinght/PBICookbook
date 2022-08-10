@@ -1,6 +1,6 @@
 # Using Service Principal to Authenticate Against Power BI Service
 
-Service Principal is an authentication method to gain access to Power BI Service Content and APIs. It is a great way to authenticate against Power BI when doing programatic development of Power BI content. A few examples of its usage are listed below:
+Service Principal is an authentication method to gain access to Power BI Service Content and APIs. It is a great way to authenticate against Power BI when doing programmatic development of Power BI content. A few examples of its usage are listed below:
 
 * [Embed Power BI content in Applications](../Embedded/EmbeddedOverview.md)
 * [Automation of data refresh using XMLA endpoint](https://github.com/mariuspc/pbi-xmla-refresh)

@@ -25,7 +25,7 @@ Click on **premium**, and assign your workspace to a **premium per capacity** th
 # AML Intergration Lab Prerequisite 
 
 * Only run this prerequisite step if you are doing the AML integration lab.
-* If you already have an available Azure Machine Learning workspace and a computer instance, ignore this step.
+* If you already have an available Azure Machine Learning workspace and a compute instance, ignore this step.
 
 ## Create an Azure Machine Learning workspace
 

@@ -93,7 +93,7 @@ This deployment pattern applies to situations where Power BI contents are create
 ## Type of Questions this Session will Address
 *	What does enterprise content distribution deployment pattern look like?
 * What type of license is involved in this deployment pattern?
-* What artifacts how usually involved in this deployment patterno?
+* What artifacts how usually involved in this deployment pattern?
 
 
 ## Overview
@@ -141,7 +141,7 @@ This deployment pattern applies to situations where users want to embed Power BI
 
 
 ## Overview
-* The whitepaper linked in resources detials the usage of Power BI Premium (P or EM Skus)for embedding for internal users.
+* The whitepaper linked in this resource details the usage of Power BI Premium (P or EM Skus)for embedding for internal users.
 *	Users use Power BI Desktop to author queries, datasets and reports, row-level security is set up in the same way as contents published in Power BI Service
 * Power BI Rest API is used for embedding dashboards and reports 
 * Datasets, dashboards and reports should be published to a specific Power BI workspace which has been designated for the embedded analytics project. 
@@ -164,7 +164,7 @@ This deployment pattern applies to situations where users want to embed Power BI
 
 
 ## Overview
-*	The whitepaper linked in resourcse covers in detail the usage of Power BI Embedded (A SKUs) Licence in embedding content for external users 
+*	The whitepaper linked in this resource covers in detail the usage of Power BI Embedded (A SKUs) Licence in embedding content for external users 
 *	Users use Power BI Desktop to author queries, datasets and reports, and contents can published in Power BI Service as normal. If required, row level security can be defined.
 * Power BI Rest API is used for embedding contents
 * Datasets, dashboards and reports should be published to a specific Power BI workspace which has been designated for the embedded analytics project. 

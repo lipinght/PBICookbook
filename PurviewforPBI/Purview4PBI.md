@@ -4,6 +4,7 @@ Purview is a data governance service from Microsoft. Using Purview with Power BI
 # Set Up and Scanning
 
 **Note**: Unlike other data sources, users can only use **managed identity** to connect to Power BI. In order to set up Power BI, user will need to have Power BI **Admin** rights. See [this tutorial](../ServicePrincipal/ServicePrincipal.md) for setting up Purview's permission to scan Power BI tenant.
+**Update Aug 2022** It is possible to use delegated authority to access the PowerBI tenant, in certain scenarios (typically no public access and private endpoints). [Summary](https://docs.microsoft.com/en-us/azure/purview/register-scan-power-bi-tenant?tabs=Scenario1#supported-scenarios-for-power-bi-scans) and example scenario [Docs](https://docs.microsoft.com/en-us/azure/purview/register-scan-power-bi-tenant?tabs=Scenario1#scan-same-tenant-using-self-hosted-ir-and-delegated-authentication)
 
 Please see [here](https://docs.microsoft.com/en-us/azure/purview/register-scan-power-bi-tenant#steps-to-register-in-the-same-tenant) for instruction on how to register Power BI as a data source in Purview and [here](https://docs.microsoft.com/en-us/azure/purview/register-scan-power-bi-tenant#scan) for how to scan Power BI in Purview. 
 

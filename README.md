@@ -5,7 +5,7 @@ This is a repo that summarize main concepts and consolidates useful resources wh
 * [Advanced Analytics](AdvAnalytics/Overview.md)
 * [Embedded](Embedded/EmbeddedOverview.md)
 * [Dataflows](DataFlows/dataflows.md)
-* [Deployment Pattern](DeploymentPatterns/DeploymentPatterns.md)
+* [Deployment Patterns](DeploymentPatterns/DeploymentPatterns.md)
 * [Deployment Pipeline](DeploymentPipeline/DeploymentPipeline.md)
 * [On-Premises Gateway](Gateway/GatewayOverview.md)
 * [Row-Level Security](RLS/RLSOverview.md)

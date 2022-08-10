@@ -34,8 +34,7 @@ and Azure Logic Apps. In this context, on-premise data includes data only availa
 * The production gateway cluster should be configured with at least two servers to achieve high availability and load balancing. Dev/test gateways can have less nodes and less resources
 *	You could install other applications on the gateway machine, but this may degrade gateway performance
 * An Azure virtual machine can be a good option to install a gateway if on-premises equipment is not available. In this situation, the VM should reside in the same region as the Power BI tenant unless there are other considerations such as proximity to the data or minimizing data egress charges
-* The gateway must reside in the same domain as the data source(s), or in another domain
-which is trusted.
+* The gateway must reside in the same domain as the data source(s), or in another domain which is trusted.
 * Currently, Microsoft actively supports only the last six releases of the on-premises data gateway. We release a new update for data gateways every month
 * The gateway should always be configured with more than one [gateway administrator](https://docs.microsoft.com/en-us/data-integration/gateway/service-gateway-manage#manage-gateway-admins), in the event of employee terminations,transfers or vacations
 * The gateway can be shared between multiple applications (Power BI, Power Apps, Power Automate, Logic Apps, Azure Analysis Services), but the data sources for each application have to be independently configured 
