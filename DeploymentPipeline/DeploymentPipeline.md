@@ -35,7 +35,7 @@
 * While there is no Azure DevOps integration in the UI, you can set up automation for deployment pipeline using APIs and Azure DevOps with Powershell Scripts, sample PowerShell Scripts can be found [here](https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/PowerShell%20Scripts)
 
 ## Considerations when using Azure DevOps and Deployment Pipeline together
-* You will need to [set up service principle](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-service-principal) in Azure AD which is used for authentication for the Powershell scripts. 
+* You will need to [set up service principal](https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-service-principal) in Azure AD which is used for authentication for the Powershell scripts. 
 * A first manual deployment in the UI is needed to create the Test and Prod workspace.
 * The service principle (or its security group) needs member or admin access to all workspaces(Dev,Test,Prod) and Deployment Pipeline itself.
 * When using service principle to authenticate and connect to PowerBI, below code snippets can be used. 
