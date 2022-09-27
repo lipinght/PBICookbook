@@ -4,9 +4,11 @@ This topic outlines how to dynamically select columns from a SQL table and displ
 
 ## Prerequisites
 [AdventureWorks sample database](https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms#deploy-to-azure-sql-database)
+
 [Power BI Report Builder](https://docs.microsoft.com/en-us/power-bi/paginated-reports/report-builder-power-bi)
-Optional
-[Visual Studio](https://visualstudio.microsoft.com/)
+
+
+[Visual Studio](https://visualstudio.microsoft.com/) (Optional)
 
 ## Database Objects
 Once the AdventureWorks sample database has been deployed, the first step is to create a new schema to hold our objects.
