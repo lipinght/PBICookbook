@@ -73,7 +73,7 @@ Once these datasets have been added to the report, three new parameters will be 
 
 Now add a matrix to the body of the report.
 
-![New Matrix](/images/Matrix.png "New Matrix")
+![New Matrix](images/Matrix.png "New Matrix")
 
 Select the rows cell, and click the icon and navigate to the following field:
 
