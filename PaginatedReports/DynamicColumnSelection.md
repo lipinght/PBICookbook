@@ -92,3 +92,6 @@ Select the Data cell, and click the icon and navigate to the following field:
 ## Preview the Report
 
 Within Report Builder click the icon to run the report. Select a Table, a Key Column and Columns to be displayed in the report.
+
+### Download sample report
+* [Dynamic Column Selection report file](assets/DynamicColumnSelection.rdl)
