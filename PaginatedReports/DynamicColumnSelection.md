@@ -17,7 +17,7 @@ CREATE SCHEMA [dyn] AUTHORIZATION [dbo]
 ```
 Once the schema is created we want to create the stored procedures that will be referenced in our report.
 
-The usp_GetTables procedure generate a list of tables that we would like to query. 
+The usp_GetTables procedure generates a list of tables that we would like to query. 
 ```
 CREATE PROCEDURE [dyn].[usp_GetTables] AS 
 
