@@ -59,7 +59,7 @@ Add three datasets to the report using the stored procedures created in the earl
 | Dataset Name | Stored Procedure |
 | --- | ----------- |
 | dsData | dyn.usp_GetDynamicColumns |
-| dsColumns | dyn.usb_GetColumns |
+| dsColumns | dyn.usp_GetColumns |
 | dsTables | dyn.usp_GetTables |
 
 ## Report Parameters
