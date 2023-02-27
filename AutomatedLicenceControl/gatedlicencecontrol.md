@@ -109,7 +109,7 @@ body('Post_Adaptive_Card_and_wait_for_a_response')?['data']?['clarification']
  
  <img width="505" alt="MicrosoftTeams-image (1)" src="https://user-images.githubusercontent.com/99490720/220887277-b32ff004-9934-40fa-b233-b75a9c179f53.png">
  
-Once again I would highly recommend building this flow from scratch to get a better understanding of the entire process. However you can download the template here [https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/AutomatedLicenseFlow_20230223104740.zip]()
+Once again I would highly recommend building this flow from scratch to get a better understanding of the entire process. However you can download the template [here](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/AutomatedLicenseFlow_20230223104740.zip)
  
 **Here are some additional links which may help:**
 
