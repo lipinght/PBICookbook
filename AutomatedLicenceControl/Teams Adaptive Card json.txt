@@ -1,0 +1,138 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "New license request",
+            "wrap": true,
+            "isVisible": true,
+            "size": "Large",
+            "color": "Good",
+            "separator": true,
+            "horizontalAlignment": "Center"
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "Container",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "There is a new license request. Please approve or reject this request. ",
+                            "wrap": true,
+                            "isSubtle": true,
+                            "separator": true,
+                            "weight": "Lighter",
+                            "fontType": "Default",
+                            "size": "Small"
+                        },
+                        {
+                            "type": "Container",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "License: ",
+                                    "wrap": true,
+                                    "weight": "Bolder"
+                                },
+                                {
+                                    "type": "TextBlock",
+                                    "text": "Power BI Pro License",
+                                    "wrap": true,
+                                    "color": "Accent"
+                                },
+                                {
+                                    "type": "Container",
+                                    "items": [
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "Employee: ",
+                                            "wrap": true,
+                                            "weight": "Bolder"
+                                        },
+                                        {
+                                            "type": "TextBlock",
+                                            "text": "@{outputs('Get_user_profile_(V2)')?['body/displayName']}",
+                                            "wrap": true,
+                                            "color": "Accent"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Justification:",
+                    "wrap": true,
+                    "weight": "Bolder"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "@{outputs('Get_response_details')?['body/rb74f90a6eb4c48528c876d0729e40307']}",
+                    "wrap": true,
+                    "color": "Accent"
+                },
+                {
+                    "type": "ActionSet",
+                    "actions": [
+                        {
+                            "type": "Action.Submit",
+                            "title": "Approve",
+                            "style": "positive",
+                            "id": "Approve"
+                        }
+                    ]
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "If you want to reject this request, please add some explanation for the employee.",
+                    "wrap": true
+                },
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "Input.Text",
+                                    "placeholder": "Explanation",
+                                    "isMultiline": true,
+                                    "separator": true,
+                                    "id": "clarification"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": "stretch",
+                            "items": [
+                                {
+                                    "type": "ActionSet",
+                                    "actions": [
+                                        {
+                                            "type": "Action.Submit",
+                                            "title": "Reject",
+                                            "style": "destructive"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.2"
+}
