@@ -1,6 +1,8 @@
 # Power BI Cookbook
 
-This is a repo that summarize main concepts and consolidates useful resources when it comes to key areas of Power BI deployment. The Key Areas that are covered in the repo are:  
+This is a repo that summarizes main concepts and consolidates useful resources when it comes to key areas of Power BI deployment. For the Power BI on Databricks best practices, tutorials and assets, please see [PBI-on-Databricks Cookbook](https://github.com/lipinght/PBI-on-DB-Cookbook)
+
+The Key Areas that are covered in the repo are:  
 # Topics  
 * [Advanced Analytics](AdvAnalytics/Overview.md)
 * [Embedded](Embedded/EmbeddedOverview.md)
